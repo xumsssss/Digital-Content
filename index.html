@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#f6f7f9" name="theme-color"/>
+<meta content="Tasting Memory — 2030 미래 주류 박람회를 위한 스마트 테이스팅 디바이스" name="description"/>
+<title>Tasting Memory — Taste. Save. Discover.</title>
+<style>
+@charset "UTF-8";
+:root{--paper:#f6f7f9;--white:#fff;--ink:#26232d;--muted:#777582;--line:#d9d6e0;--lav:#a6a3c4;--lav2:#d9c8ec;--violet:#524a6a;--deep:#282331;--deep2:#342d40;--serif:Georgia,"Times New Roman",serif;--sans:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:400;letter-spacing:-.025em}img{display:block;max-width:100%}button,input{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.section-shell{width:min(1320px,calc(100% - 9vw));margin-inline:auto}.site-header{height:76px;position:absolute;z-index:20;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid rgba(65,59,76,.13)}.wordmark{font-size:14px;font-weight:700;letter-spacing:.13em;display:flex;flex-direction:column;gap:5px}.wordmark span{font-size:8px;letter-spacing:.18em;color:#8e8999;font-weight:500}.header-note{font-size:9px;letter-spacing:.18em;color:#817c8b}.hero{min-height:790px;padding-top:145px;padding-bottom:68px;display:grid;grid-template-columns:.85fr 1.15fr;align-items:center;position:relative}.hero-copy{position:relative;z-index:2;padding:40px 0 20px}.eyebrow{font-size:10px;letter-spacing:.18em;font-weight:600;color:#8e899d;margin:0 0 22px}.eyebrow.violet{color:#8c7cae}.hero h1,.section-title-row h2,.intro h2,.footer-top h2{font-size:clamp(62px,8.2vw,116px);line-height:.91;letter-spacing:-.075em;font-weight:500;margin:0 0 32px}.hero h1 em,.section-title-row h2 em,.intro h2 em,.footer-top h2 em{font-family:var(--serif);font-weight:400;color:#9587b0}.hero-lead{font-size:clamp(18px,2vw,24px);line-height:1.55;font-weight:500;margin:0 0 18px}.hero-desc{font-size:13px;line-height:1.95;color:#777381;margin:0}.hero-index{display:flex;align-items:center;gap:14px;margin-top:54px;font-size:9px;letter-spacing:.17em;color:#898494}.hero-index span:first-child{color:#8e7bb3}.hero-index i{height:1px;width:48px;background:#c5bfd0}.hero-art{position:relative;margin-left:-2vw;display:flex;align-items:center;justify-content:center}.hero-art img{width:82%;margin:0 auto;position:relative;z-index:1;mix-blend-mode:normal;border-radius:2px;background:transparent}.hero-halo{position:absolute;width:75%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(190,169,220,.32),rgba(218,211,231,.06) 60%,transparent 70%);top:10%;left:12%;filter:blur(16px)}.hero-stamp{position:absolute;z-index:2;right:4%;bottom:9%;width:92px;height:92px;border:1px solid rgba(255,255,255,.8);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-shadow:0 1px 8px #665b78;font-size:8px;letter-spacing:.16em}.hero-stamp b{font-size:28px;font-weight:400;margin:2px}.hero-bottom{position:absolute;bottom:30px;left:0;right:0;display:flex;justify-content:space-between;font-size:8px;letter-spacing:.17em;color:#918c9b}
+.intro{padding-top:112px;padding-bottom:125px}.section-kicker{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:15px;font-size:9px;letter-spacing:.18em;color:#8e8999}.section-title-row{display:flex;align-items:flex-end;justify-content:space-between;gap:50px;margin:55px 0 58px}.section-title-row h2{font-size:clamp(54px,6.3vw,88px);margin:0}.section-title-row>p{max-width:365px;font-size:13px;line-height:1.9;color:var(--muted);margin:0 0 5px}.intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:9vw;align-items:end;margin:72px 0 85px}.intro h2{font-size:clamp(58px,6.5vw,88px);margin:0}.intro-text{max-width:560px}.intro-text p{font-size:13px;line-height:2;color:#777381}.intro-text .statement{font-size:19px;line-height:1.7;color:#36313f;font-weight:500;margin-top:0}.persona-row{display:grid;grid-template-columns:1fr 1.1fr .8fr;gap:5vw;align-items:center;padding:42px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.persona-image{height:270px;position:relative;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#e6e2ed,#f6f5f8 55%,#d9d3e4);overflow:hidden}.persona-image img{width:100%;height:100%;object-fit:cover;object-position:center 34%;position:absolute;inset:0}.persona-image .persona-caption{z-index:1;left:0;right:0;text-align:center;padding:12px 8px 10px;color:#fff;background:linear-gradient(transparent,#28233188);text-shadow:0 1px 5px #28233188}.persona-orbit{position:absolute;width:210px;height:210px;border:1px solid rgba(111,95,143,.28);border-radius:50%;box-shadow:0 0 0 22px rgba(255,255,255,.16),0 0 0 50px rgba(255,255,255,.1)}.persona-avatar{position:relative;width:120px;height:120px;border-radius:50%;background:linear-gradient(145deg,#c6b6d9,#6e647e);color:#fff;display:flex;align-items:center;justify-content:center;font-size:42px;font-family:var(--serif);box-shadow:0 18px 35px #6b5c7b44}.persona-avatar span{font-size:12px;align-self:flex-start;margin-top:29px}.persona-caption{position:absolute;bottom:16px;font-size:8px;letter-spacing:.15em;color:#726b7c}.persona-copy h3{font-size:43px;line-height:1;margin:0 0 15px;font-weight:500;letter-spacing:-.06em}.persona-copy h3 em{font-family:var(--serif);font-weight:400;color:#9587b0}.persona-meta{font-size:11px;color:#8a8298;letter-spacing:.04em}.persona-copy>p:not(.eyebrow):not(.persona-meta){font-size:12px;line-height:1.9;color:#777381;max-width:470px}.trait-list{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.trait-list span{border:1px solid #d4cddd;padding:7px 10px;font-size:8px;letter-spacing:.12em;color:#81788f}.persona-note{border-left:1px solid #c9c0d5;padding:12px 0 12px 25px}.persona-note span{display:block;font-size:9px;letter-spacing:.17em;color:#9587b0;margin-bottom:18px}.persona-note b{font-size:16px;line-height:1.7;font-weight:500}.problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:65px}.problem-grid article{padding:27px 25px 30px;border:1px solid var(--line);background:#ffffff75;min-height:170px}.problem-grid span{font-size:10px;color:#9a89b8;letter-spacing:.12em}.problem-grid h4{font-size:16px;font-weight:500;margin:20px 0 10px}.problem-grid p{font-size:11px;line-height:1.8;color:#827e8a;margin:0}
+.device-section,.app-section,.design-section{background:var(--deep);color:#f4f1f8}.device-section{padding:100px 0 110px}.section-kicker.light{border-color:#514a5c;color:#aaa3b6}.section-title-row.light>p{color:#b5afbf}.section-title-row.light h2 em{color:#b7a5d6}.device-explorer{display:grid;grid-template-columns:1.5fr .75fr;gap:20px;align-items:stretch}.model-panel{position:relative;min-height:660px;overflow:hidden;border:1px solid #5c5369;border-radius:4px;background:radial-gradient(ellipse at 48% 48%,#574968 0,#342d40 42%,#292431 75%)}.model-topline{position:absolute;z-index:2;top:22px;left:24px;right:24px;display:flex;justify-content:space-between;font-size:8px;letter-spacing:.15em;color:#bdb5ca}.model-glow{position:absolute;left:16%;top:18%;width:68%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(175,148,210,.35),transparent 68%);filter:blur(22px)}#deviceCanvas{position:absolute;inset:50px 0 50px;width:100%;height:calc(100% - 100px);touch-action:none;cursor:grab}#deviceCanvas:active{cursor:grabbing}.model-status{position:absolute;left:24px;bottom:23px;font-size:8px;letter-spacing:.17em;color:#a9a0b5}.model-controls{position:absolute;right:24px;bottom:23px;display:flex;gap:15px;font-size:8px;letter-spacing:.14em;color:#aaa3b6}.part-panel{background:#f8f7fa;color:#2c2734;padding:26px 25px 22px;border-radius:4px;display:flex;flex-direction:column}.part-panel h3{font-size:34px;font-weight:500;letter-spacing:-.05em;margin:0 0 8px}.part-panel>p:not(.eyebrow){font-size:11px;line-height:1.75;color:#77717f;min-height:40px;margin:0 0 18px}.part-list{display:grid;grid-template-columns:1fr 1fr;gap:6px}.part-item{display:flex;align-items:center;gap:8px;background:transparent;border:1px solid #e0dce7;padding:11px 9px;text-align:left;color:#615b6a;min-width:0;transition:.2s}.part-item span{font-size:8px;color:#9a8cb0}.part-item b{font-size:8px;letter-spacing:.06em;font-weight:600;flex:1}.part-item i{font-style:normal;font-size:10px;color:#a497b9}.part-item.active,.part-item:hover{background:#ece7f2;border-color:#b9a8d2;color:#463b58}.control-demo{border-top:1px solid #e1dce7;margin-top:18px;padding-top:18px}.control-demo label,.button-demo-row{display:flex;align-items:center;justify-content:space-between;font-size:8px;letter-spacing:.12em;color:#8d8498}.control-demo output{font-size:10px;color:#66547f}input[type=range]{width:100%;accent-color:#8872ad;margin:13px 0 18px}.press-control{background:#312a3d;color:#fff;border:0;padding:9px 18px;border-radius:30px;font-size:8px;letter-spacing:.12em;transition:.15s}.press-control:active,.press-control.pressed{transform:scale(.94);background:#8c78ae;box-shadow:0 0 18px #b69ad8}.control-demo>p{font-size:9px;line-height:1.6;color:#938b9b;margin:10px 0 0}.device-feature-strip{display:grid;grid-template-columns:repeat(3,1fr);margin-top:18px;border-top:1px solid #514a5c;border-bottom:1px solid #514a5c}.device-feature-strip article{padding:24px 22px;border-right:1px solid #514a5c}.device-feature-strip article:last-child{border:0}.device-feature-strip span{display:block;font-size:8px;letter-spacing:.16em;color:#a79bb8;margin-bottom:12px}.device-feature-strip b{font-size:18px;font-weight:500}.device-feature-strip p{font-size:10px;color:#b1aabb;margin-bottom:0}
+.ai-section{padding-top:115px;padding-bottom:120px}.process-line{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:14px;align-items:start;margin:25px 0 90px}.process-line article{position:relative;border-top:1px solid #cfc8d9;padding-top:22px}.process-number{font-size:9px;color:#9987b5;letter-spacing:.15em}.process-icon{width:58px;height:58px;border:1px solid #d3cbdc;border-radius:50%;display:grid;place-items:center;font-size:27px;color:#8d7aa9;margin:25px 0 20px;background:linear-gradient(145deg,#fff,#eeebf3)}.process-line article>span{font-size:8px;letter-spacing:.18em;color:#9588a7}.process-line h3{font-size:19px;font-weight:500;margin:10px 0}.process-line p{font-size:11px;line-height:1.8;color:#7e7986}.process-arrow{padding-top:80px;color:#a397b6;font-size:19px}.location-diagram{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;background:#ece9f1;padding:44px;align-items:center}.location-copy>span{font-size:9px;letter-spacing:.17em;color:#8e7aa9}.location-copy h3{font-size:35px;font-weight:500;letter-spacing:-.06em;margin:16px 0}.location-copy p{font-size:12px;line-height:1.9;color:#77717f;max-width:330px}.direction-visual{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.expo-map{height:230px;position:relative;background:#f8f7fa;overflow:hidden;border:1px solid #d7d1df}.map-grid{position:absolute;inset:0;background-image:linear-gradient(#dcd6e3 1px,transparent 1px),linear-gradient(90deg,#dcd6e3 1px,transparent 1px);background-size:32px 32px;opacity:.6}.you-pin,.booth-pin{position:absolute;z-index:2;display:flex;align-items:center;gap:7px;font-size:8px;letter-spacing:.12em;color:#6d5b88}.you-pin{left:19%;bottom:24%}.you-pin i,.booth-pin i{width:10px;height:10px;border-radius:50%;background:#8e7bb2;box-shadow:0 0 0 6px #a99acb33}.booth-pin{right:13%;top:18%;color:#5b4a73}.booth-pin i{background:#524a6a}.route-line{position:absolute;width:48%;height:42%;left:28%;top:22%;border-top:2px dashed #a28dbd;border-right:2px dashed #a28dbd;transform:skew(-26deg);border-radius:0 25px 0 0}.beacon{position:absolute;width:12px;height:12px;border:1px solid #b0a1c4;border-radius:50%;animation:pulse 2.6s infinite}.beacon-one{left:32%;top:24%}.beacon-two{left:58%;top:58%;animation-delay:.8s}.beacon-three{right:25%;top:33%;animation-delay:1.4s}.hex-led{width:140px;height:140px;position:relative;margin:auto;clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);background:#d2c9dd;display:grid;place-items:center}.hex-led:before{content:"";position:absolute;inset:8px;clip-path:inherit;background:#f7f5f9}.hex-segment{position:absolute;width:45px;height:45px;border:2px solid #c5b9d2;opacity:.35}.seg-top{top:8px;left:47px;border-bottom:0}.seg-right{right:7px;top:48px;border-left:0}.seg-bottom-right{right:26px;bottom:8px;border-left:0}.seg-bottom-left{left:26px;bottom:8px;border-right:0}.seg-left{left:7px;top:48px;border-right:0}.seg-top-left{left:26px;top:8px;border-bottom:0}.hex-segment.active{opacity:1;border-color:#a88bcf;filter:drop-shadow(0 0 8px #a88bcf);background:#c6b3df33}.hex-center{position:relative;font-size:12px;color:#625374;font-weight:600}.direction-caption{grid-column:2;text-align:center;font-size:8px;letter-spacing:.14em;color:#82768f}.live-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#9c83c2;margin-right:7px;box-shadow:0 0 0 4px #9c83c233}
+.app-section{padding:100px 0 115px;background:#302a39}.app-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px 18px}.app-card{min-width:0}.app-image{height:270px;background:#484151;display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid #5a5264}.app-image img{width:100%;height:100%;object-fit:contain;transition:transform .45s ease}.app-card:hover .app-image img{transform:scale(1.04)}.app-meta{display:grid;grid-template-columns:28px 1fr;gap:5px 10px;padding-top:13px;color:#eeeaf3}.app-meta span{grid-row:span 2;color:#b29fcf;font-size:9px}.app-meta b{font-size:10px;letter-spacing:.11em;font-weight:500}.app-meta small{font-size:9px;color:#a9a1b4}
+.scenario-section{padding-top:115px;padding-bottom:125px}.scenario-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.scenario-grid article{background:#fff;border:1px solid #e0dce5;overflow:hidden}.scenario-grid img{width:100%;aspect-ratio:1.22/1;object-fit:cover}.scenario-grid article>div{display:flex;align-items:center;gap:10px;padding:12px 12px 14px}.scenario-grid span{font-size:9px;color:#9a86b9;letter-spacing:.1em}.scenario-grid b{font-size:10px;font-weight:500}
+.design-section{padding:100px 0 110px;background:#292431}.cmf-image{max-width:100%;background:#f8f7fa;padding:10px}.cmf-image img{width:100%;height:auto}.cmf-notes{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #554d60;margin-top:35px}.cmf-notes article{padding:23px 20px 0;border-right:1px solid #554d60}.cmf-notes article:first-child{padding-left:0}.cmf-notes article:last-child{border:0}.cmf-notes span{font-size:8px;letter-spacing:.17em;color:#b8a7d2}.cmf-notes h3{font-size:17px;font-weight:500;margin:13px 0}.cmf-notes p{font-size:10px;line-height:1.8;color:#b8b1c1}
+.spec-section{padding-top:115px;padding-bottom:125px}.spec-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:7vw;align-items:center}.spec-image{background:#eae7ef;overflow:hidden}.spec-image img{width:100%;mix-blend-mode:multiply}.spec-table{border-top:1px solid #cfc9d8}.spec-table>div{display:grid;grid-template-columns:.7fr 1.3fr;gap:20px;padding:17px 0;border-bottom:1px solid #dcd7e2;align-items:center}.spec-table span{font-size:8px;letter-spacing:.16em;color:#91869f}.spec-table b{font-size:12px;font-weight:500}.spec-footnote{font-size:9px;line-height:1.7;color:#8b8592;margin-top:18px}
+footer{background:#211d29;color:#f5f1f8;padding:70px 5vw 25px}.footer-top{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:60px}.footer-top h2{font-size:clamp(50px,7vw,90px);margin:0}.footer-top h2 em{color:#b7a5d6}.footer-phrase{font-family:var(--serif);font-size:clamp(24px,3vw,42px);line-height:1.05;letter-spacing:.05em;color:#b5a5cb;text-align:right}.footer-bottom{border-top:1px solid #514a5c;padding-top:18px;display:flex;justify-content:space-between;font-size:8px;letter-spacing:.16em;color:#a69eaf}
+@keyframes pulse{0%,100%{transform:scale(.7);opacity:.45}50%{transform:scale(1.5);opacity:1}}
+@media(max-width:1000px){.hero{min-height:650px;grid-template-columns:.9fr 1.1fr}.device-explorer{grid-template-columns:1fr}.model-panel{min-height:560px}.part-panel{padding:25px}.part-list{grid-template-columns:repeat(4,1fr)}.app-grid{grid-template-columns:repeat(2,1fr)}.app-image{height:320px}.scenario-grid{grid-template-columns:repeat(3,1fr)}.persona-row{grid-template-columns:.8fr 1.2fr}.persona-note{grid-column:2}.process-line{gap:8px}.process-line p{font-size:10px}.location-diagram{gap:25px;padding:30px}}
+@media(max-width:650px){.section-shell{width:calc(100% - 36px)}.site-header{height:64px;padding:0 18px}.header-note{display:none}.hero{display:flex;flex-direction:column;align-items:stretch;min-height:0;padding-top:115px;padding-bottom:58px}.hero-copy{padding:10px 0 0}.hero h1{font-size:76px;margin-bottom:23px}.hero-art{margin:20px -18px 0;display:flex;align-items:center;justify-content:center}.hero-art img{width:86%}.hero-bottom{position:static;margin-top:26px;font-size:7px}.hero-index{margin-top:28px}.intro{padding-top:75px;padding-bottom:80px}.section-title-row{display:block;margin:38px 0 38px}.section-title-row h2{font-size:59px}.section-title-row>p{margin-top:20px}.intro-grid{grid-template-columns:1fr;gap:25px;margin:45px 0 50px}.intro h2{font-size:62px}.intro-text .statement{font-size:17px}.persona-row{grid-template-columns:1fr;gap:25px;padding:28px 0}.persona-image{height:230px}.persona-note{grid-column:auto}.problem-grid{grid-template-columns:1fr;gap:10px;margin-top:35px}.problem-grid article{min-height:0;padding:20px}.device-section,.app-section,.design-section{padding:70px 0 75px}.section-title-row.light{display:block}.model-panel{min-height:420px}.model-topline{font-size:7px;left:14px;right:14px}.model-controls{right:14px;bottom:14px;font-size:7px}.model-status{left:14px;bottom:14px}.part-panel{padding:20px 15px}.part-list{grid-template-columns:repeat(2,1fr)}.device-feature-strip{grid-template-columns:1fr}.device-feature-strip article{border-right:0;border-bottom:1px solid #514a5c;padding:18px 10px}.process-line{grid-template-columns:1fr 1fr;gap:18px 22px;margin:10px 0 50px}.process-arrow{display:none}.process-line article{min-height:215px}.process-icon{margin:17px 0}.location-diagram{grid-template-columns:1fr;padding:22px 16px}.direction-visual{grid-template-columns:1fr 120px;gap:12px}.expo-map{height:180px}.hex-led{width:112px;height:112px}.hex-segment{transform:scale(.78)}.direction-caption{font-size:6px}.app-grid{grid-template-columns:repeat(2,1fr);gap:20px 10px}.app-image{height:190px}.app-meta{gap:4px 6px}.app-meta b{font-size:8px}.app-meta small{font-size:8px}.scenario-section{padding-top:75px;padding-bottom:80px}.scenario-grid{grid-template-columns:repeat(2,1fr);gap:10px}.scenario-grid article>div{padding:10px 8px}.scenario-grid b{font-size:9px}.cmf-notes{grid-template-columns:1fr 1fr}.cmf-notes article{padding:18px 12px 0 0;margin-bottom:20px}.cmf-notes article:nth-child(2){border:0}.cmf-notes article:nth-child(3){padding-left:0}.spec-section{padding-top:75px;padding-bottom:80px}.spec-layout{grid-template-columns:1fr;gap:25px}.spec-table>div{padding:14px 0}.footer-top{padding-bottom:40px}.footer-bottom{font-size:6px;gap:12px}.footer-top h2{font-size:62px}}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}.reveal.is-visible{opacity:1;transform:translateY(0)}
+.app-image,.scenario-grid article,.cmf-image{cursor:default}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+.model-fallback{position:absolute;inset:70px 5% 60px;width:90%;height:calc(100% - 130px);object-fit:contain;opacity:.0;pointer-events:none}#deviceCanvas{z-index:1}.model-panel.fallback .model-fallback{opacity:.72}.model-panel.fallback #deviceCanvas{display:none}
+
+/* Redesigned CMF editorial board */
+.cmf-board{background:#332d3d;border:1px solid #554d60;padding:clamp(20px,4vw,52px);margin-top:8px}
+.cmf-board-head{display:grid;grid-template-columns:1fr .8fr;gap:35px;align-items:end;padding-bottom:34px;border-bottom:1px solid #5a5264}
+.cmf-index{font-size:8px;letter-spacing:.2em;color:#b8a7d2}
+.cmf-board-head h3{font-size:clamp(38px,5vw,66px);font-weight:400;line-height:.98;letter-spacing:-.065em;margin:18px 0 0}
+.cmf-board-head h3 em{font-family:var(--serif);color:#b8a7d2}
+.cmf-board-head>p{max-width:370px;font-size:11px;line-height:1.9;color:#c3bdcb;margin:0 0 5px}
+.cmf-materials{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:25px 0}
+.material-card{background:#e9e8ed;color:#302a39;min-width:0}
+.material-visual{height:220px;position:relative;display:grid;place-items:center;overflow:hidden}
+.metal-card .material-visual{background:radial-gradient(ellipse at 50% 35%,#fff 0,#e4e6ea 44%,#c6cbd1 100%)}
+.metal-object{width:112px;height:172px;border-radius:30px;background:linear-gradient(110deg,#aeb4bd 0,#f8f9fb 18%,#c8cdd3 34%,#fff 51%,#aeb4bd 76%,#e9ebef 100%);box-shadow:18px 22px 35px #62687455,inset 0 0 0 1px #ffffffaa;transform:rotate(13deg);position:relative}
+.metal-object:after{content:"";position:absolute;left:14px;right:14px;top:22px;height:1px;background:#fff;box-shadow:0 7px 0 #ffffff88}
+.frost-card .material-visual{background:radial-gradient(circle at 50% 40%,#e9e1f2,#c8bfd9 70%,#b5a9c8)}
+.frost-object{width:160px;height:104px;border-radius:30px 22px 34px 18px;background:linear-gradient(135deg,#ffffffc9,#e5dff0aa 45%,#b8a8d2aa);border:1px solid #ffffffd9;box-shadow:0 18px 35px #55496a55,inset 0 0 24px #fff9;transform:rotate(-12deg);backdrop-filter:blur(4px)}
+.strap-card .material-visual{background:linear-gradient(145deg,#e3e0e9,#c9c3d4)}
+.strap-object{width:72px;height:190px;border-radius:50px;background:repeating-linear-gradient(90deg,#4a4355 0 3px,#6e657d 3px 5px,#373141 5px 7px);transform:rotate(24deg);box-shadow:8px 12px 20px #51485e55;position:relative}
+.strap-object:after{content:"";position:absolute;bottom:-4px;left:20px;width:32px;height:17px;border:4px solid #aeb3bc;border-radius:5px;background:transparent}
+.material-code{position:absolute;top:13px;left:15px;font-size:8px;letter-spacing:.15em;color:#71697d}
+.material-info{padding:17px 18px 19px;display:flex;flex-direction:column;gap:7px}
+.material-info span,.palette-heading span,.cmf-principles span{font-size:8px;letter-spacing:.16em;color:#8c7ca4}
+.material-info b{font-size:14px;font-weight:500}
+.material-info small{font-size:9px;color:#817b89;line-height:1.5}
+.cmf-palette{padding:22px 0 25px;border-top:1px solid #5a5264;border-bottom:1px solid #5a5264}
+.palette-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:17px}
+.palette-heading span{color:#c3b4d8}.palette-heading small{font-size:8px;letter-spacing:.14em;color:#9e96aa}
+.swatch-row{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}
+.swatch{min-width:0;display:flex;flex-direction:column;gap:7px}
+.swatch i{display:block;height:54px;background:var(--swatch);border:1px solid #ffffff30}
+.swatch b{font-size:8px;letter-spacing:.1em;color:#eeeaf3;font-weight:500}
+.swatch small{font-size:8px;color:#a9a1b3}
+.cmf-principles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding-top:25px}
+.cmf-principles article{padding-right:16px;border-right:1px solid #554d60}
+.cmf-principles article:last-child{border:0}
+.cmf-principles span{color:#b7a5d2}
+.cmf-principles b{display:block;font-size:14px;font-weight:500;margin:10px 0}
+.cmf-principles p{font-size:10px;line-height:1.8;color:#b8b1c1;margin:0}
+@media(max-width:700px){.cmf-board{padding:20px 15px}.cmf-board-head{grid-template-columns:1fr;gap:17px}.cmf-materials{grid-template-columns:1fr;gap:12px}.material-visual{height:165px}.metal-object{height:130px;width:88px}.frost-object{width:135px;height:82px}.strap-object{height:145px}.swatch-row{grid-template-columns:repeat(5,1fr);gap:6px}.swatch i{height:42px}.swatch b,.swatch small{font-size:6px}.cmf-principles{grid-template-columns:1fr;gap:16px}.cmf-principles article{border-right:0;border-bottom:1px solid #554d60;padding:0 0 14px}.cmf-principles article:last-child{border:0;padding-bottom:0}}
+
+
+/* Scenario film preview */
+.scenario-film{margin:0 0 54px;padding:30px;background:#292431;color:#f7f5fa}
+.film-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:22px}
+.film-heading span{font-size:8px;letter-spacing:.2em;color:#b8a7d2}
+.film-heading h3{font-size:clamp(27px,3.4vw,44px);font-weight:400;line-height:1.12;letter-spacing:-.045em;margin:12px 0 0}
+.film-heading h3 em{font-family:Georgia,serif;font-weight:400;color:#b9add0}
+.film-heading>p{max-width:310px;font-size:10px;line-height:1.9;color:#c6bfce;margin:0 0 3px}
+.film-frame{position:relative;background:#17141c;overflow:hidden}
+.film-frame video{display:block;width:100%;max-height:680px;aspect-ratio:16/9;object-fit:contain;background:#17141c}
+.film-caption{display:block;padding:12px 0 0;font-size:7px;letter-spacing:.18em;color:#a99bbd}
+@media(max-width:650px){.scenario-film{margin:0 0 36px;padding:18px}.film-heading{display:block}.film-heading>p{margin-top:15px}.film-frame video{aspect-ratio:16/9}}
+
+/* CMF glassmorphism redesign — translucent pearl surfaces and soft ambient glow */
+.design-section{background:#292431;position:relative;isolation:isolate;overflow:hidden}
+.design-section:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 14% 34%,#a69bc955 0,transparent 33%),radial-gradient(ellipse at 85% 72%,#d7d1e755 0,transparent 30%)}
+.cmf-board{position:relative;overflow:hidden;border:1px solid #ffffff55;border-radius:34px;padding:clamp(22px,4.5vw,58px);background:linear-gradient(135deg,#ffffff24,#ffffff08 48%,#d9d1e51c);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);box-shadow:0 28px 80px #09070f55,inset 0 1px 0 #ffffff70}
+.cmf-board:before{content:"";position:absolute;z-index:-1;width:65%;height:65%;left:16%;top:20%;filter:blur(65px);background:radial-gradient(ellipse,#b7a8d966,transparent 70%)}
+.cmf-board-head{border-color:#ffffff35}
+.cmf-index{color:#d4c8e6}
+.cmf-board-head h3 em{color:#d2c2eb}
+.cmf-board-head>p{color:#e1dce8}
+.cmf-materials{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:28px 0}
+.material-card{border:1px solid #ffffff72;border-radius:25px;overflow:hidden;background:linear-gradient(145deg,#ffffffb8,#f1eef6a8 48%,#c9c1d9a1);box-shadow:0 18px 42px #100d1850,inset 0 1px 0 #ffffff;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.material-visual{height:245px;background:transparent!important;position:relative}
+.material-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,#ffffffbd 0,transparent 52%),radial-gradient(ellipse at 80% 20%,#b9a9d977 0,transparent 48%);filter:blur(12px)}
+.metal-object{box-shadow:18px 22px 40px #55515c44,inset 0 0 0 1px #ffffffcc}
+.frost-object{box-shadow:0 20px 45px #62587544,inset 0 0 0 1px #ffffffdd}
+.material-code{color:#655b72!important}
+.material-info{padding:19px 22px 22px;background:linear-gradient(135deg,#ffffffa8,#e9e4ef8c);border-top:1px solid #ffffffa8}
+.material-info>span{color:#80748e!important}
+.material-info b{color:#302a39}
+.material-info small{color:#71697a}
+.cmf-palette{border-color:#ffffff40}
+.palette-heading span{color:#d8cbea}
+.palette-heading small{color:#c5bdce}
+.swatch i{border-radius:12px;border:1px solid #ffffff8a;box-shadow:0 8px 18px #0d0b1350,inset 0 1px 0 #ffffffb8}
+.swatch b{color:#f2eef6}
+.swatch small{color:#c5bdce}
+.cmf-principles article{border-color:#ffffff35}
+.cmf-principles span{color:#d3c2eb}
+.cmf-principles p{color:#d1cad9}
+.scenario-grid img{aspect-ratio:1.22/1;object-fit:cover}
+.scenario-grid article{border-radius:10px}
+@media(max-width:650px){.cmf-board{border-radius:24px}.cmf-materials{grid-template-columns:1fr}.material-visual{height:210px}}
+
+
+.viewer-embed-wrap{display:block!important;width:100%;height:700px;min-height:520px;overflow:hidden;border:1px solid #5c5369;border-radius:4px;background:#f3f3f6}
+.viewer-embed{display:block;width:100%;height:100%;border:0;background:transparent}
+@media(max-width:650px){.viewer-embed-wrap{height:560px;min-height:500px}}
+
+/* UI screen sequence experience */
+.ui-flow-section{padding:100px 0 115px;background:#292431;color:#f4f1f8}
+.ui-flow-section .section-kicker{border-color:#514a5c;color:#aaa3b6}
+.ui-flow-section .section-title-row>p{color:#b5afbf}
+.ui-flow-section .section-title-row h2 em{color:#b7a5d6}
+.ui-flow-layout{display:grid;grid-template-columns:.92fr 1.08fr;gap:24px;align-items:stretch}
+.ui-model-column,.ui-sequence-column{min-width:0}
+.ui-column-label{display:flex;justify-content:space-between;gap:12px;padding:0 0 13px;border-bottom:1px solid #514a5c;color:#b9b0c5;font-size:8px;letter-spacing:.16em}
+.ui-screen-model-wrap{height:530px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 48%,#5b4c6b 0,#3a3245 48%,#2d2835 100%);border:1px solid #5b5266}
+.ui-model-aura{position:absolute;width:76%;aspect-ratio:1;left:12%;top:10%;border-radius:50%;background:radial-gradient(circle,rgba(194,171,224,.28),transparent 68%);filter:blur(20px);pointer-events:none}
+#uiScreenModel{position:absolute;inset:0;width:100%;height:100%;--poster-color:transparent;background:transparent;outline:none}
+.ui-model-caption{position:absolute;left:18px;bottom:17px;color:#c0b7ca;font-size:8px;letter-spacing:.13em;pointer-events:none}
+.ui-model-status{position:absolute;inset:0;display:grid;place-items:center;color:#d0c6da;font-size:9px;letter-spacing:.16em;pointer-events:none}
+.ui-model-foot{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid #514a5c;color:#aaa1b5;font-size:8px;letter-spacing:.14em}
+.ui-model-foot b{font-size:13px;font-weight:500;color:#f3eff8;letter-spacing:.18em}
+.ui-sequence-window{position:relative;height:530px;overflow:hidden;background:#f5f3f8;border:1px solid #5b5266;touch-action:pan-y}
+.ui-slides{position:relative;width:100%;height:100%}
+.ui-slide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px;padding:24px 24px 70px;opacity:0;transform:translateY(34px) scale(.985);transition:opacity .42s ease,transform .55s cubic-bezier(.2,.75,.25,1);pointer-events:none}
+.ui-slide.active{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+.ui-device-frame{height:calc(100% - 80px);width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ui-device-frame img{height:100%;max-width:100%;width:auto;max-height:100%;object-fit:contain;filter:drop-shadow(0 18px 28px rgba(31,25,42,.17))}
+.ui-slide-meta{width:100%;display:grid;grid-template-columns:55px 1fr;gap:5px 12px;color:#302a39;align-items:baseline}
+.ui-slide-meta>span{grid-row:span 2;font-size:9px;letter-spacing:.12em;color:#9785b2}
+.ui-slide-meta b{font-size:12px;font-weight:600;letter-spacing:.08em}
+.ui-slide-meta p{margin:0;color:#827b8c;font-size:10px}
+.ui-sequence-overlay{position:absolute;left:22px;right:22px;bottom:16px;display:flex;align-items:center;gap:16px;pointer-events:none}
+.ui-current-count{font-size:10px;letter-spacing:.12em;color:#655779;white-space:nowrap}
+.ui-current-count i{font-style:normal;color:#a69caf}
+.ui-progress-track{height:2px;background:#d9d3e0;flex:1;overflow:hidden}
+.ui-progress-track span{display:block;width:12.5%;height:100%;background:#8e79ae;transition:width .4s ease}
+.ui-sequence-controls{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid #514a5c}
+.ui-step-dots{display:flex;gap:8px;align-items:center}
+.ui-dot{width:6px;height:6px;padding:0;border:0;border-radius:50%;background:#70677b;transition:all .25s}
+.ui-dot.active{width:22px;border-radius:5px;background:#b8a5d6}
+.ui-arrows{display:flex;gap:7px}
+.ui-arrows button{width:32px;height:30px;border:1px solid #62596e;background:transparent;color:#eee9f5;font-size:15px;transition:.2s}
+.ui-arrows button:hover{background:#b8a5d6;color:#292431;border-color:#b8a5d6}
+.ui-scroll-hint{display:flex;align-items:center;gap:8px;margin:13px 0 0;color:#aaa2b4;font-size:9px;letter-spacing:.03em}
+.ui-scroll-hint span{font-size:15px;color:#c0addd}
+@media(max-width:850px){.ui-flow-layout{grid-template-columns:1fr}.ui-screen-model-wrap{height:400px}.ui-sequence-window{height:500px}}
+@media(max-width:600px){.ui-flow-section{padding:70px 0}.ui-screen-model-wrap{height:330px}.ui-sequence-window{height:430px}.ui-slide{padding:18px 16px 65px}.ui-device-frame{height:calc(100% - 75px)}.ui-column-label{font-size:7px}.ui-slide-meta b{font-size:10px}.ui-slide-meta p{font-size:9px}}
+
+/* GLOBAL FROSTED-GLASS ART DIRECTION */
+:root{--paper:#171620;--white:rgba(255,255,255,.76);--ink:#f5f2f8;--muted:#c2bdca;--line:rgba(255,255,255,.18);--deep:#25212e;--deep2:#302a3a}
+html{background:#171620}
+body{background:radial-gradient(ellipse at 12% 8%,rgba(130,112,160,.34),transparent 34%),radial-gradient(ellipse at 88% 34%,rgba(90,119,143,.22),transparent 30%),linear-gradient(145deg,#171620 0%,#292431 48%,#191722 100%);color:#f5f2f8}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 72% 18%,rgba(255,255,255,.08),transparent 22%),radial-gradient(circle at 18% 75%,rgba(188,166,220,.10),transparent 28%);}
+.site-header{position:absolute;background:rgba(28,25,36,.34);backdrop-filter:blur(22px) saturate(150%);-webkit-backdrop-filter:blur(22px) saturate(150%);border-bottom:1px solid rgba(255,255,255,.16);color:#f7f4fa}
+.wordmark span,.header-note{color:rgba(245,241,250,.68)}
+.hero{background:linear-gradient(125deg,rgba(255,255,255,.12),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.16);border-radius:28px;margin-top:92px;padding-left:5%;padding-right:5%;backdrop-filter:blur(24px) saturate(145%);-webkit-backdrop-filter:blur(24px) saturate(145%);box-shadow:0 28px 90px rgba(0,0,0,.18)}
+.hero h1,.hero-lead{color:#f7f4fa}.hero-desc,.hero-index,.hero-bottom{color:rgba(245,241,250,.7)}.hero h1 em{color:#c7b5e3}.hero-art img{filter:drop-shadow(0 24px 38px rgba(0,0,0,.3))}
+.intro{background:linear-gradient(135deg,rgba(255,255,255,.11),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.14);border-radius:28px;margin-top:28px;padding:70px 5%;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+.intro h2,.intro-text .statement,.intro-text p,.persona-row,.persona-row *{color:#f4f0f8}.intro .section-kicker,.intro .eyebrow{color:#d1c5e2}.persona-row{border-color:rgba(255,255,255,.2)}
+.problem-grid article,.app-card,.scenario-grid article,.spec-image,.part-panel,.location-diagram,.expo-map,.cmf-image{background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.055))!important;border:1px solid rgba(255,255,255,.2);border-radius:18px;backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%);box-shadow:0 16px 48px rgba(0,0,0,.14)}
+.problem-grid article,.scenario-grid article,.part-panel,.location-diagram,.expo-map{color:#f5f2f8}.problem-grid article p,.scenario-grid article p{color:rgba(245,242,248,.72)}
+.device-section,.ai-section,.app-section,.design-section{background:linear-gradient(135deg,rgba(38,33,49,.88),rgba(31,28,40,.76))!important;border-top:1px solid rgba(255,255,255,.13);border-bottom:1px solid rgba(255,255,255,.13);backdrop-filter:blur(18px)}
+.part-panel,.part-item{color:#f5f2f8}.part-item{border-color:rgba(255,255,255,.15)}.part-item.active,.part-item:hover{background:rgba(255,255,255,.14)!important}
+.location-diagram,.expo-map{color:#f5f2f8}.spec-section{background:transparent}.spec-table>div{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.16);backdrop-filter:blur(16px)}.spec-table span,.spec-table b{color:#f4f0f8}.spec-footnote{color:rgba(245,242,248,.65)}
+footer{background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.035));border-top:1px solid rgba(255,255,255,.18);backdrop-filter:blur(20px)}
+.section-kicker,.section-title-row>p{color:rgba(245,242,248,.72)}.eyebrow{color:#c9bddb}
+@media(max-width:700px){.hero,.intro{border-radius:18px;margin-top:78px;padding-left:22px;padding-right:22px}.hero{margin-top:76px}}
+/* UI glass interaction area */
+.ui-flow-section{background:linear-gradient(135deg,rgba(35,31,45,.9),rgba(26,24,35,.86))!important;padding:112px 0 125px;overflow:hidden}
+.glass-ui-layout{display:grid;grid-template-columns:1.02fr .98fr;gap:24px;align-items:stretch}
+.glass-hardware-card,.glass-interface-card{position:relative;min-width:0;padding:18px 20px 16px;border-radius:24px;border:1px solid rgba(255,255,255,.24);background:linear-gradient(135deg,rgba(255,255,255,.19),rgba(255,255,255,.065) 55%,rgba(218,208,235,.10));box-shadow:0 24px 75px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.24);backdrop-filter:blur(26px) saturate(160%);-webkit-backdrop-filter:blur(26px) saturate(160%)}
+.glass-hardware-card:before,.glass-interface-card:before{content:"";position:absolute;inset:1px;border-radius:23px;pointer-events:none;background:linear-gradient(120deg,rgba(255,255,255,.12),transparent 35%,rgba(255,255,255,.045) 70%,transparent)}
+.glass-card-topline{position:relative;z-index:2;display:flex;justify-content:space-between;gap:12px;padding:3px 2px 15px;border-bottom:1px solid rgba(255,255,255,.18);color:rgba(248,245,252,.72);font-size:9px;letter-spacing:.16em}
+.live-indicator{display:flex;align-items:center;gap:7px}.live-indicator i{width:6px;height:6px;border-radius:50%;background:#c9b3f0;box-shadow:0 0 12px #c9b3f0}
+.glass-product-stage{height:540px;position:relative;overflow:hidden;border-radius:18px;margin-top:14px;background:radial-gradient(ellipse at 50% 42%,rgba(255,255,255,.2),rgba(197,179,220,.08) 42%,rgba(15,14,21,.24) 100%);border:1px solid rgba(255,255,255,.16)}
+.glass-product-aura{position:absolute;inset:8%;border-radius:50%;background:radial-gradient(circle,rgba(205,185,232,.3),transparent 66%);filter:blur(25px);pointer-events:none}
+#uiScreenModel{position:absolute;inset:0;width:100%;height:100%;background:transparent;--poster-color:transparent;outline:none}
+.glass-zoom-label{position:absolute;left:18px;bottom:16px;display:flex;flex-direction:column;gap:4px;color:rgba(248,245,252,.62);font-size:8px;letter-spacing:.17em;pointer-events:none;text-shadow:0 1px 8px #1b1723}
+.glass-zoom-label b{font-size:11px;color:#f8f5fc;font-weight:500;letter-spacing:.12em}
+.glass-model-loading{position:absolute;inset:0;display:grid;place-items:center;color:#e9e1f2;font-size:9px;letter-spacing:.18em;pointer-events:none}
+.glass-model-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 1px 0;color:rgba(245,241,250,.63);font-size:8px;letter-spacing:.13em}
+.glass-model-footer div{display:flex;gap:6px}.glass-model-footer button{border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:8px 11px;background:rgba(255,255,255,.07);color:#f3eff8;font-size:8px;letter-spacing:.08em}.glass-model-footer button.active,.glass-model-footer button:hover{background:rgba(203,181,233,.27);border-color:rgba(219,202,245,.65)}
+.glass-ui-stage{position:relative;height:540px;overflow:hidden;margin-top:14px;border-radius:18px;border:1px solid rgba(255,255,255,.24);background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.06));box-shadow:inset 0 1px 18px rgba(255,255,255,.09);outline:none;touch-action:pan-y}
+.glass-ui-slides{position:relative;width:100%;height:100%}.glass-ui-slide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px;padding:28px 26px 52px;opacity:0;transform:translateY(30px) scale(.975);transition:opacity .45s ease,transform .58s cubic-bezier(.2,.75,.25,1);pointer-events:none}.glass-ui-slide.active{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+.glass-device-shell{position:relative;width:min(100%,540px);height:auto;aspect-ratio:1.57;padding:9px;border-radius:20px;background:linear-gradient(135deg,#f7f8fb,#aeb2bd 22%,#f8f9fb 48%,#8f929e 70%,#e7e8ee);box-shadow:0 28px 50px rgba(0,0,0,.3),inset 0 1px 2px #fff}
+.glass-device-camera{position:absolute;top:4px;left:50%;width:34px;height:3px;transform:translateX(-50%);border-radius:4px;background:#666873;z-index:2;opacity:.45}
+.glass-device-screen{position:relative;width:100%;height:100%;overflow:hidden;border-radius:12px;background:#08090d;border:1px solid rgba(0,0,0,.7);box-shadow:inset 0 0 0 1px rgba(255,255,255,.16)}
+.glass-device-screen img{width:100%;height:100%;object-fit:cover;display:block}.screen-glare{position:absolute;inset:0;pointer-events:none;background:linear-gradient(118deg,rgba(255,255,255,.16),transparent 25%,transparent 68%,rgba(255,255,255,.07));mix-blend-mode:screen}
+.glass-device-bottom{position:absolute;bottom:3px;left:50%;transform:translateX(-50%);width:44px;height:3px;border-radius:5px;background:rgba(80,82,92,.45)}
+.glass-ui-caption{width:100%;max-width:540px;display:grid;grid-template-columns:58px 1fr;gap:12px;align-items:center;color:#fff}.glass-ui-number{font-size:10px;letter-spacing:.14em;color:#d4c2ef}.glass-ui-caption b{font-size:13px;letter-spacing:.12em;font-weight:550}.glass-ui-caption p{margin:5px 0 0;color:rgba(247,243,251,.67);font-size:10px;line-height:1.5}
+.glass-ui-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.12)}.glass-ui-progress span{display:block;width:12.5%;height:100%;background:linear-gradient(90deg,#b9a3dc,#eee3ff);box-shadow:0 0 12px rgba(205,182,242,.55);transition:width .4s ease}
+.glass-ui-controls{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 1px 0}.glass-ui-dots{display:flex;gap:7px;align-items:center}.glass-ui-dot{width:6px;height:6px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.32);transition:all .25s}.glass-ui-dot.active{width:22px;border-radius:6px;background:#d4c0f0;box-shadow:0 0 12px rgba(212,192,240,.5)}
+.glass-ui-arrows{display:flex;align-items:center;gap:10px;color:#fff;font-size:9px;letter-spacing:.12em}.glass-ui-arrows span{min-width:42px;text-align:center}.glass-ui-arrows i{font-style:normal;color:#b7a9c8}.glass-ui-arrows button{width:30px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.08);color:#fff}.glass-ui-arrows button:hover{background:rgba(204,185,231,.3)}
+.glass-ui-hint{margin:13px 0 0;color:rgba(244,239,249,.58);font-size:9px;letter-spacing:.04em}.glass-ui-hint span{color:#d6c1f0;font-size:15px;margin-right:6px}
+@media(max-width:900px){.glass-ui-layout{grid-template-columns:1fr}.glass-product-stage,.glass-ui-stage{height:480px}.glass-device-shell{width:min(100%,600px)}}
+@media(max-width:600px){.ui-flow-section{padding:76px 0}.glass-hardware-card,.glass-interface-card{padding:13px;border-radius:18px}.glass-product-stage,.glass-ui-stage{height:380px}.glass-ui-slide{padding:18px 14px 42px}.glass-device-shell{padding:6px;border-radius:13px}.glass-device-screen{border-radius:8px}.glass-ui-caption{grid-template-columns:48px 1fr}.glass-ui-caption b{font-size:11px}.glass-ui-caption p{font-size:9px}.glass-card-topline{font-size:7px}.glass-model-footer{font-size:7px}.glass-model-footer button{padding:7px 8px;font-size:7px}}
+
+
+/* V8 — bright gallery + translucent glass system */
+:root{--paper:#f7f8fb;--white:#fff;--ink:#24232b;--muted:#737582;--line:rgba(67,65,82,.14);--deep:#f4f5f8;--deep2:#eef0f5}
+body{background:#f7f8fb;color:#24232b}
+.site-header{background:rgba(250,251,253,.72);backdrop-filter:blur(22px) saturate(150%);-webkit-backdrop-filter:blur(22px) saturate(150%);border-bottom:1px solid rgba(90,88,110,.12)}
+.hero{background:linear-gradient(180deg,#fbfcfe 0%,#f4f5f9 100%)}
+.intro,.scenario-section,.spec-section{background:transparent}
+.device-section,.app-section,.design-section{background:linear-gradient(180deg,#f8f9fc,#eef0f5);color:#26242e}
+.section-kicker.light{border-color:rgba(70,68,85,.14);color:#858391}
+.section-title-row.light>p{color:#72717e}
+.section-title-row.light h2{color:#272530}
+.section-title-row.light h2 em{color:#9c8cbb}
+.device-section .model-panel{background:transparent!important;border:1px solid rgba(255,255,255,.75);box-shadow:0 24px 70px rgba(61,56,82,.08);backdrop-filter:blur(12px)}
+.device-section .model-glow{opacity:.12}
+.device-section .model-topline,.device-section .model-status,.device-section .model-controls,.device-section .device-feature-strip{color:#777482}
+.device-section .model-panel iframe,.device-section iframe.viewer-embed{background:transparent!important}
+.device-section .device-feature-strip article{background:rgba(255,255,255,.52);border:1px solid rgba(90,86,110,.12);box-shadow:0 12px 35px rgba(57,53,76,.04)}
+.device-section .device-feature-strip article b{color:#282631}
+.device-section .device-feature-strip article p{color:#777482}
+.app-section{padding:105px 0 120px}
+.design-section{color:#282631}
+.design-section .section-kicker.light,.design-section .section-title-row.light h2,.design-section .cmf-notes h3{color:#282631}
+.design-section .section-title-row.light>p,.design-section .cmf-notes p{color:#777482}
+.design-section .cmf-notes{border-color:rgba(70,68,85,.14)}
+.design-section .cmf-notes article{border-color:rgba(70,68,85,.14)}
+.design-section .cmf-image{background:rgba(255,255,255,.72);border:1px solid rgba(80,76,100,.1);border-radius:18px}
+.scenario-grid article,.problem-grid article{border-radius:14px;box-shadow:0 12px 35px rgba(50,47,67,.04)}
+.footer,.site-footer{background:#f1f2f6!important;color:#6e6d79!important}
+/* New AI process interaction */
+.ai-section{padding:112px 0 125px;background:linear-gradient(180deg,#f8f9fc 0%,#eef0f5 100%);}
+.ai-intro-copy{max-width:470px}
+.ai-story-shell{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);gap:18px;align-items:stretch;margin-top:42px}
+.ai-visual-card,.ai-step-card{border:1px solid rgba(255,255,255,.82);border-radius:24px;background:rgba(255,255,255,.48);box-shadow:0 24px 70px rgba(52,48,73,.08);backdrop-filter:blur(24px) saturate(145%);-webkit-backdrop-filter:blur(24px) saturate(145%)}
+.ai-visual-card{position:relative;min-height:590px;overflow:hidden}
+.ai-visual-head{position:absolute;z-index:8;left:24px;right:24px;top:20px;display:flex;justify-content:space-between;color:#777482;font-size:9px;letter-spacing:.15em}
+.ai-stage{position:absolute;inset:0;overflow:hidden;background:radial-gradient(ellipse at 50% 55%,rgba(221,216,235,.34),rgba(248,249,252,.04) 60%,transparent 76%)}
+.ai-stage model-viewer{position:absolute;inset:35px 2% 12px;width:96%;height:calc(100% - 47px);background:transparent;--poster-color:transparent;--progress-bar-color:#b4a1d1;outline:none}
+.ai-stage model-viewer::part(default-progress-bar){background:#aa98c7}
+.ai-bottle{position:absolute;z-index:5;right:9%;bottom:17%;width:105px;height:235px;opacity:0;transform:translateY(25px) scale(.9);transition:.7s cubic-bezier(.2,.75,.2,1);pointer-events:none}
+.ai-bottle:before{content:"";position:absolute;left:34px;top:0;width:36px;height:58px;border-radius:8px 8px 3px 3px;background:linear-gradient(90deg,#4b3b31,#a28a6d,#34251f);box-shadow:inset 0 0 0 1px #ffffff38}
+.ai-bottle:after{content:"";position:absolute;left:18px;top:48px;width:68px;height:178px;border-radius:19px 19px 13px 13px;background:linear-gradient(90deg,#30231f,#72513c 35%,#38251e 80%);box-shadow:inset 0 0 0 1px #ffffff30,0 18px 34px #40332c30}
+.ai-bottle-label{position:absolute;z-index:2;left:22px;top:112px;width:60px;height:58px;background:linear-gradient(135deg,#eee6d7,#c9b99d);color:#594638;text-align:center;padding-top:13px;font:10px Georgia;letter-spacing:.1em}
+.ai-camera-frame{position:absolute;z-index:6;right:5%;top:28%;width:180px;height:130px;border:1px solid rgba(151,128,190,.75);border-radius:12px;opacity:0;transform:scale(.85);transition:.5s;box-shadow:0 0 0 999px rgba(180,166,205,.04)}
+.ai-camera-frame:before,.ai-camera-frame:after{content:"";position:absolute;width:18px;height:18px;border-color:#a58ac9;border-style:solid}
+.ai-camera-frame:before{left:-1px;top:-1px;border-width:2px 0 0 2px}.ai-camera-frame:after{right:-1px;bottom:-1px;border-width:0 2px 2px 0}
+.ai-flash{position:absolute;z-index:7;right:18%;top:43%;width:14px;height:14px;border-radius:50%;background:#fff;box-shadow:0 0 0 0 rgba(255,255,255,.8);opacity:0}
+.ai-save-card{position:absolute;z-index:7;left:7%;bottom:13%;width:230px;padding:15px;border:1px solid #ffffffb5;border-radius:16px;background:rgba(255,255,255,.68);backdrop-filter:blur(18px);box-shadow:0 14px 40px #5c55731c;opacity:0;transform:translateY(18px);transition:.55s}
+.ai-save-card small{display:block;color:#8e82a5;font-size:8px;letter-spacing:.14em;margin-bottom:7px}.ai-save-card b{font-size:14px;font-weight:600}.ai-save-card p{font-size:10px;color:#777482;margin:7px 0 0}
+.ai-analysis-orbit{position:absolute;z-index:4;left:50%;top:48%;width:270px;height:270px;border:1px solid rgba(160,137,194,.0);border-radius:50%;transform:translate(-50%,-50%) scale(.7);opacity:0;transition:.7s}
+.ai-analysis-orbit:before,.ai-analysis-orbit:after{content:"";position:absolute;inset:18px;border:1px dashed rgba(155,133,190,.0);border-radius:50%}.ai-analysis-orbit:after{inset:48px;border-style:solid}
+.ai-analysis-chip{position:absolute;z-index:6;left:50%;top:13%;transform:translateX(-50%) translateY(12px);padding:10px 15px;border:1px solid #fff;border-radius:30px;background:rgba(255,255,255,.65);font-size:9px;letter-spacing:.1em;color:#6e617f;opacity:0;transition:.5s;backdrop-filter:blur(12px);white-space:nowrap}
+.ai-direction-panel{position:absolute;z-index:7;right:5%;bottom:12%;width:174px;padding:16px;border-radius:18px;background:rgba(255,255,255,.74);border:1px solid #fff;box-shadow:0 15px 40px #51496d20;opacity:0;transform:translateY(18px);transition:.55s;backdrop-filter:blur(16px)}
+.ai-direction-panel small{display:block;color:#8d81a4;font-size:8px;letter-spacing:.14em}.ai-direction-panel b{display:block;font-size:17px;margin:7px 0}.ai-direction-panel span{font-size:10px;color:#6e6c78}
+.ai-led-orient{position:absolute;z-index:8;left:7%;top:19%;width:112px;height:112px;border:1px solid rgba(168,144,207,.0);border-radius:50%;opacity:0;transition:.6s}
+.ai-led-orient:before{content:"";position:absolute;inset:12px;border:1px dashed rgba(151,126,190,.0);border-radius:50%}
+.ai-led-arrow{position:absolute;left:50%;top:50%;width:2px;height:42px;background:#a88dcd;transform-origin:50% 100%;transform:translate(-50%,-100%) rotate(90deg);filter:drop-shadow(0 0 8px #b89add)}
+.ai-led-arrow:after{content:"";position:absolute;top:-2px;left:-5px;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:10px solid #aa8bd1}
+.ai-stage[data-step="1"] .ai-bottle,.ai-stage[data-step="1"] .ai-camera-frame{opacity:1;transform:none}
+.ai-stage[data-step="1"] .ai-flash{animation:aiFlash 1.8s ease-in-out infinite}
+.ai-stage[data-step="2"] .ai-save-card{opacity:1;transform:none}
+.ai-stage[data-step="3"] .ai-analysis-orbit{opacity:1;transform:translate(-50%,-50%) scale(1);border-color:#a88dca;box-shadow:0 0 40px #b6a0d333}
+.ai-stage[data-step="3"] .ai-analysis-orbit:before,.ai-stage[data-step="3"] .ai-analysis-orbit:after{border-color:#b6a2d3}
+.ai-stage[data-step="3"] .ai-analysis-chip{opacity:1;transform:translateX(-50%)}
+.ai-stage[data-step="4"] .ai-direction-panel,.ai-stage[data-step="4"] .ai-led-orient{opacity:1;transform:none;border-color:#b29bce}
+.ai-stage[data-step="4"] .ai-led-orient:before{border-color:#b29bce}
+.ai-step-card{padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+.ai-step-top{font-size:9px;letter-spacing:.15em;color:#8a8198}.ai-step-count{font:italic 56px Georgia;color:#c1b4d5;line-height:1;margin:24px 0 12px}
+.ai-step-card h3{font-size:30px;line-height:1.15;font-weight:500;letter-spacing:-.05em;margin:0 0 14px}.ai-step-card p{font-size:12px;line-height:1.9;color:#777482;margin:0;min-height:90px}
+.ai-step-list{display:grid;gap:8px;margin-top:24px}.ai-step-button{width:100%;display:grid;grid-template-columns:32px 1fr auto;gap:10px;align-items:center;text-align:left;padding:12px 13px;border:1px solid rgba(86,81,105,.12);border-radius:12px;background:rgba(255,255,255,.35);color:#777482;transition:.25s}.ai-step-button span{font-size:9px;color:#a094b4}.ai-step-button b{font-size:11px;font-weight:500}.ai-step-button i{font-style:normal;font-size:12px;opacity:.45}.ai-step-button.active{background:rgba(255,255,255,.88);border-color:#bcaad4;color:#332d3e;box-shadow:0 8px 25px #5a4e7114}.ai-step-button.active i{opacity:1;color:#947bb7}
+.ai-progress{height:3px;background:#e3e0e9;border-radius:4px;overflow:hidden;margin-top:22px}.ai-progress span{display:block;height:100%;width:25%;background:linear-gradient(90deg,#9e8abf,#d4c4e8);transition:width .35s}
+.ai-step-hint{font-size:9px;color:#96919f;margin-top:14px;letter-spacing:.04em}
+/* UI screen shown on the real 3D device display */
+.glass-ui-section{background:linear-gradient(180deg,#f6f7fa,#eceef4)!important;color:#272530!important;padding:108px 0 125px}
+.glass-ui-section .section-kicker.light{color:#898593;border-color:#dedce5}
+.glass-ui-section .section-title-row.light h2{color:#292733}
+.glass-ui-section .section-title-row.light>p{color:#777482}
+.ui-real-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(290px,.8fr);gap:18px;align-items:stretch;margin-top:36px}
+.ui-real-model,.ui-real-controls{position:relative;border:1px solid #fff;border-radius:24px;background:rgba(255,255,255,.56);box-shadow:0 22px 65px rgba(56,51,76,.07);backdrop-filter:blur(22px);overflow:hidden}
+.ui-real-model{min-height:600px}
+.ui-real-model model-viewer{width:100%;height:600px;background:transparent;--poster-color:transparent;outline:none}
+.ui-screen-hotspot{width:clamp(170px,22vw,290px);aspect-ratio:1.52;display:block;overflow:hidden;border-radius:5px;background:#08090d;box-shadow:0 0 0 5px rgba(12,12,17,.8),0 0 22px rgba(0,0,0,.45);transform:translate(-50%,-50%) rotate(-3deg);pointer-events:none}
+.ui-screen-hotspot img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .28s}
+.ui-screen-hotspot img.ready{opacity:1}
+.ui-model-label{position:absolute;z-index:5;left:22px;top:20px;font-size:9px;letter-spacing:.15em;color:#777482}.ui-model-note{position:absolute;z-index:5;left:22px;bottom:18px;font-size:9px;color:#888492;letter-spacing:.08em}
+.ui-real-controls{padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+.ui-control-top{font-size:9px;letter-spacing:.15em;color:#898493}.ui-control-number{font:italic 54px Georgia;color:#b9a9ce;margin:28px 0 8px}.ui-control-title{font-size:25px;font-weight:500;margin:0 0 12px}.ui-control-desc{font-size:11px;line-height:1.85;color:#777482;min-height:75px}
+.ui-screen-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:22px}.ui-screen-tab{border:1px solid #e0dce7;background:rgba(255,255,255,.4);border-radius:10px;padding:11px 5px;color:#8a8492;font-size:9px}.ui-screen-tab.active{background:#302a3a;color:#fff;border-color:#302a3a;box-shadow:0 8px 20px #302a3a22}
+.ui-screen-nav{display:flex;justify-content:space-between;align-items:center;margin-top:20px}.ui-screen-nav button{border:1px solid #ded9e7;background:#fff;border-radius:30px;padding:10px 15px;font-size:10px;color:#4d465a}.ui-screen-nav span{font-size:9px;color:#8c8794;letter-spacing:.1em}
+.ui-screen-progress{height:3px;background:#e6e2ec;border-radius:4px;margin-top:18px;overflow:hidden}.ui-screen-progress span{display:block;height:100%;width:12.5%;background:#aa95c8;transition:width .3s}
+@keyframes aiFlash{0%,70%,100%{opacity:0;box-shadow:0 0 0 0 rgba(255,255,255,0)}75%{opacity:1;box-shadow:0 0 0 28px rgba(255,255,255,.16)}85%{opacity:.3}}
+@media(max-width:900px){.ai-story-shell,.ui-real-layout{grid-template-columns:1fr}.ai-visual-card{min-height:520px}.ai-step-card{gap:24px}.ui-real-model,.ui-real-model model-viewer{min-height:520px;height:520px}}
+@media(max-width:600px){.ai-section,.glass-ui-section{padding:78px 0}.ai-story-shell{gap:12px}.ai-visual-card{min-height:440px}.ai-visual-head{font-size:7px;left:14px;right:14px}.ai-bottle{transform:scale(.72);transform-origin:bottom right;right:2%;bottom:18%}.ai-camera-frame{width:130px;height:96px;right:3%}.ai-save-card{left:3%;width:180px}.ai-step-card{padding:20px}.ai-step-count{font-size:44px}.ai-step-card h3{font-size:25px}.ui-real-model,.ui-real-model model-viewer{height:430px;min-height:430px}.ui-real-controls{padding:20px}.ui-screen-hotspot{width:clamp(140px,42vw,220px)}.ui-screen-tabs{gap:5px}.ui-screen-tab{padding:10px 2px;font-size:8px}}
+
+
+/* v20: remove decorative overlays from the physical device preview */
+#uiRealModel .ui-device-touch,
+#uiRealModel [slot="hotspot-screen-touch"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+</style>
+<script type="module">
+(async()=>{try{await import('https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js');}catch(e){try{await import('https://cdn.jsdelivr.net/npm/@google/model-viewer@4.0.0/dist/model-viewer.min.js');}catch(e2){const st=document.getElementById('uiModelStatus');if(st)st.textContent='3D VIEWER LOAD FAILED — CHECK INTERNET CONNECTION';}}})();
+</script><style>
+/* v9: higher contrast, real part animations, screen-mapped UI */
+:root{--ink:#252330;--muted:#625e6c;--paper:#f6f7fa}
+.ai-visual-card{background:rgba(255,255,255,.82)!important;color:#252330!important;border:1px solid rgba(93,83,115,.18)!important;box-shadow:0 20px 60px rgba(40,32,58,.09)!important}
+.ai-visual-head,.ai-step-top,.ai-step-hint{color:#625c6d!important}
+.ai-stage{background:transparent!important;isolation:isolate;}
+#aiProductModel,#uiRealModel{background:transparent!important;--poster-color:transparent!important;}
+.ai-step-card{background:rgba(255,255,255,.86)!important;color:#252330!important;border:1px solid rgba(93,83,115,.16)!important}
+.ai-step-card p{color:#625e6c!important}
+.ai-step-button{color:#484352!important;border-color:rgba(70,60,90,.17)!important}
+.ai-step-button b{color:#383342!important}
+.ai-step-button.active{background:#eee9f6!important;border-color:#aa96c8!important}
+.ai-step-button.active b{color:#49365f!important}
+.ui-real-model{background:linear-gradient(145deg,rgba(255,255,255,.72),rgba(240,239,246,.55))!important;backdrop-filter:blur(18px);border:1px solid rgba(95,82,117,.18)!important}
+.ui-screen-hotspot{display:none!important}
+.ai-screen-hotspot{display:none!important}
+.ai-camera-frame,.ai-flash,.ai-bottle,.ai-save-card,.ai-analysis-orbit,.ai-analysis-chip,.ai-led-orient,.ai-direction-panel{display:none!important}
+</style>
+<style id="v10-final-art-direction">
+:root{--paper:#f7f6fb;--ink:#292633;--muted:#625e6d;--line:rgba(75,65,95,.18)}
+html,body{background:linear-gradient(128deg,#fbfbff 0%,#f2effa 26%,#e9e2f5 53%,#f5f2fb 76%,#fff 100%)!important;color:#292633!important}
+body{background-attachment:fixed!important}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 12% 15%,rgba(206,190,235,.38),transparent 34%),radial-gradient(ellipse at 86% 25%,rgba(229,220,246,.48),transparent 34%),radial-gradient(ellipse at 52% 90%,rgba(215,205,238,.28),transparent 42%)}
+.site-header{background:rgba(255,255,255,.58)!important;border-bottom:1px solid rgba(86,73,111,.15)!important;backdrop-filter:blur(22px) saturate(145%)}
+.wordmark,.header-note,.hero h1,.hero-lead,.section-kicker,.section-kicker.light,.section-title-row h2,.section-title-row.light h2,.intro h2,.intro-text .statement,.intro-text p,.hero-desc,.hero-index,.hero-bottom,.eyebrow,.persona-row,.persona-row *, .problem-grid h4,.problem-grid p,.device-feature-strip article b,.device-feature-strip article p,.ai-step-card h3,.ai-step-card p,.ai-step-top,.ai-step-hint,.ai-visual-head,.app-meta,.scenario-grid article,.cmf-notes h3,.cmf-notes p,.spec-table span,.spec-table b,.spec-footnote{color:#292633!important}
+.hero h1 em,.section-title-row h2 em,.intro h2 em,.footer-top h2 em{color:#8972ad!important}
+.section-kicker,.section-kicker.light{border-color:rgba(82,70,108,.2)!important;color:#514b5d!important}
+.eyebrow,.eyebrow.violet{color:#806a9f!important}
+.hero,.intro,.device-section,.ai-section,.app-section,.scenario-section,.design-section,.glass-ui-section,.spec-section{background:transparent!important;color:#292633!important}
+.section-title-row>p,.section-title-row.light>p{color:#5f5a69!important}
+.device-section .section-title-row.light h2,.glass-ui-section .section-title-row.light h2{color:#292633!important}
+.device-section .model-panel{background:radial-gradient(ellipse at 50% 45%,rgba(255,255,255,.9),rgba(231,224,243,.55) 58%,rgba(218,208,235,.22))!important;border:1px solid rgba(255,255,255,.85)!important}
+.device-section .model-topline,.device-section .model-status,.device-section .model-controls{color:#5e5869!important}
+.device-section .device-feature-strip{border-color:rgba(80,68,105,.18)!important}
+.device-section .device-feature-strip article{background:rgba(255,255,255,.42)!important;border-color:rgba(80,68,105,.14)!important}
+.ai-visual-card,.ai-step-card,.ui-real-model,.ui-real-controls,.problem-grid article,.scenario-grid article,.spec-table>div{background:rgba(255,255,255,.58)!important;border:1px solid rgba(255,255,255,.88)!important;box-shadow:0 18px 55px rgba(76,59,108,.08)!important;backdrop-filter:blur(20px) saturate(140%)}
+.ai-step-button{background:rgba(255,255,255,.62)!important;color:#514b5d!important}
+.ai-step-button b{color:#292633!important}
+.ai-step-button.active{background:#e9e0f5!important;border-color:#a88ecb!important}
+.ai-step-button.active b{color:#47365d!important}
+.ai-stage{background:radial-gradient(ellipse at 50% 52%,rgba(214,202,235,.42),transparent 72%)!important}
+
+.ai-stage[data-step="4"] 
+to{filter:brightness(1.5);box-shadow:0 0 10px #f0ddff,0 0 24px rgba(165,111,225,1),0 0 34px rgba(151,89,211,.85)}}
+.app-section{padding-top:100px}
+.app-meta,.app-meta b,.app-meta small{color:#373241!important}
+.app-image{background:rgba(255,255,255,.48)!important;border-color:rgba(255,255,255,.75)!important}
+.design-section{background:transparent!important}
+.cmf-board{background:linear-gradient(135deg,rgba(255,255,255,.74),rgba(232,224,243,.56))!important;border:1px solid rgba(255,255,255,.92)!important;box-shadow:0 22px 65px rgba(73,58,105,.09)!important}
+.cmf-board-head{border-color:rgba(88,74,115,.18)!important}
+.cmf-board-head h3,.cmf-board-head>p,.cmf-index,.cmf-board-head h3 em,.cmf-notes span,.cmf-notes h3,.cmf-notes p{color:#393344!important}
+.cmf-palette,.cmf-principles article,.cmf-notes,.cmf-notes article{border-color:rgba(88,74,115,.18)!important}
+.cmf-principles span{color:#806a9f!important}
+.swatch b{color:#383342!important}.swatch small{color:#716a7c!important}
+.spec-section{padding-top:110px}
+.spec-layout{grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr)!important;gap:38px!important;align-items:start!important}
+.spec-image.technical-drawing{background:#fff!important;border:1px solid rgba(75,65,95,.2)!important;border-radius:3px!important;padding:10px!important;box-shadow:0 18px 55px rgba(60,50,80,.07)!important}
+.spec-image.technical-drawing img{width:100%;height:auto;mix-blend-mode:normal!important;object-fit:contain}
+.drawing-caption{display:flex;justify-content:space-between;gap:10px;padding:10px 4px 2px;border-top:1px solid #d9d6df;color:#5e5868;font-size:8px;letter-spacing:.12em}
+.spec-table{border-color:rgba(75,65,95,.22)!important}
+.spec-table>div{background:transparent!important;border-color:rgba(75,65,95,.18)!important;backdrop-filter:none!important}
+.spec-table span{color:#766b87!important}.spec-table b{color:#292633!important}
+.spec-footnote{color:#686272!important}
+footer{background:linear-gradient(135deg,rgba(232,224,245,.8),rgba(250,249,253,.86))!important;color:#292633!important;border-top:1px solid rgba(82,70,108,.16)!important}
+.footer-top h2,.footer-phrase,.footer-bottom,.footer-bottom span{color:#292633!important}
+.viewer-embed-wrap{background:radial-gradient(ellipse at 50% 42%,#fff 0%,#f1edf8 62%,#e8e1f2 100%)!important;border:1px solid rgba(255,255,255,.9)!important;box-shadow:0 18px 55px rgba(73,58,105,.08)}
+@media(max-width:900px){.spec-layout{grid-template-columns:1fr!important}}
+@media(max-width:650px){.drawing-caption{font-size:6px}.spec-section{padding-top:75px}}
+</style>
+<style id="v13-illustration-drawing">
+.problem-grid article{position:relative;overflow:hidden;min-height:230px;padding:22px!important}
+.problem-illustration-wrap{height:92px;display:flex;align-items:center;justify-content:flex-start;color:#9a80bd;margin:0 0 16px}
+.problem-illustration{width:128px;height:86px;overflow:visible}
+.problem-grid article:nth-child(2) .problem-illustration-wrap{color:#9b8bb2}
+.problem-grid article:nth-child(3) .problem-illustration-wrap{color:#a88bcf}
+.problem-grid article>span{display:block;font-size:10px;letter-spacing:.18em;color:#9179b2!important;margin-bottom:10px}
+.problem-grid article h4{font-size:17px!important;letter-spacing:-.03em;margin:0 0 9px}
+.problem-grid article p{font-size:13px!important;line-height:1.7;color:#625d6d!important;margin:0}
+.technical-drawing.generated-drawing{background:#fff!important;border:1px solid rgba(75,65,95,.18)!important;border-radius:4px!important;padding:14px!important;box-shadow:0 18px 55px rgba(60,50,80,.07)!important}
+.technical-drawing.generated-drawing>svg{display:block;width:100%;height:auto}
+.technical-drawing.generated-drawing .drawing-caption{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:10px 4px 2px;border-top:1px solid #d9d6df;color:#6b6576;font-size:8px;letter-spacing:.1em}
+@media(max-width:700px){.problem-grid article{min-height:210px}.problem-illustration-wrap{height:76px}.technical-drawing.generated-drawing{padding:6px!important}.technical-drawing.generated-drawing .drawing-caption{font-size:6px}}
+</style>
+<style id="tasting-memory-app-v11">
+/* Interactive device UI */
+#ui-design .ui-real-layout{grid-template-columns:minmax(0,1.12fr) minmax(340px,.88fr);gap:20px}
+#uiRealModel .ui-device-touch{
+  display:flex!important; align-items:center; justify-content:center; gap:5px;
+  position:relative; z-index:30; pointer-events:auto!important;
+  width:100%; height:100%; padding:7px; box-sizing:border-box;
+  border-radius:7px; background:rgba(30,26,38,.92);
+  box-shadow:0 0 0 3px rgba(255,255,255,.8),0 8px 22px rgba(20,16,28,.28);
+}
+#uiRealModel .ui-device-touch .touch-state{display:none}
+#uiRealModel .ui-device-touch [data-touch-screen]{
+  display:block!important; pointer-events:auto!important; cursor:pointer;
+  border:1px solid rgba(224,210,244,.45); border-radius:5px;
+  padding:8px 6px; background:rgba(255,255,255,.12); color:#fff;
+  font:600 8px/1 Arial,sans-serif; letter-spacing:.04em;
+}
+#uiRealModel .ui-device-touch [data-touch-screen]:hover,
+#uiRealModel .ui-device-touch [data-touch-screen].active{
+  background:#b99bd9; color:#241d30; border-color:#e9dcf7;
+}
+#ui-design .ui-real-controls{overflow-y:auto!important; overflow-x:hidden!important; pointer-events:auto!important; position:relative; z-index:5}
+#ui-design .ui-real-controls button,
+#ui-design .ui-real-controls input{pointer-events:auto!important; cursor:pointer}
+#ui-design .ui-real-controls input[type=range]{cursor:ew-resize}
+#ui-design .ui-real-model{pointer-events:auto}
+#ui-design .ui-real-model model-viewer{pointer-events:auto}
+
+#ui-design .ui-real-model{position:relative}
+#ui-design .ui-real-controls{min-height:600px;padding:22px;background:rgba(255,255,255,.9)}
+.tm-app{display:flex;flex-direction:column;gap:14px;height:100%;color:#302a3b}
+.tm-app-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.tm-app-kicker{font-size:9px;letter-spacing:.15em;color:#8e7ca9}
+.tm-app-status{font-size:9px;color:#8e7ca9;background:#f1edf7;border-radius:30px;padding:7px 10px}
+.tm-app h3{font-size:25px;font-weight:550;letter-spacing:-.05em;margin:3px 0}
+.tm-app-copy{font-size:11px;line-height:1.7;color:#777080;margin:0}
+.tm-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tm-nav button,.tm-action,.tm-tab{border:1px solid #e7e1ed;background:#fff;color:#51465f;border-radius:11px;padding:10px 5px;font-size:10px;cursor:pointer}
+.tm-nav button.active,.tm-tab.active{background:#4d405f;color:#fff;border-color:#4d405f}
+.tm-panel{border:1px solid #ece7f1;background:linear-gradient(145deg,#fff,#f8f5fb);border-radius:17px;padding:15px}
+.tm-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.tm-label{font-size:9px;letter-spacing:.1em;color:#8b8195}
+.tm-value{font-size:12px;color:#40364e;font-weight:600}
+.tm-camera-view{height:190px;border-radius:14px;background:linear-gradient(145deg,#272330,#51475d);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.tm-camera-view:before{content:"";position:absolute;inset:24px;border:1px solid #e7dff3;border-radius:10px;opacity:.75}
+.tm-camera-view:after{content:"";position:absolute;inset:50% 24px auto;height:1px;background:#d8c5f3;box-shadow:0 0 14px #c7a8f5}
+.tm-bottle{width:58px;height:132px;position:relative;background:linear-gradient(90deg,#1a171e,#51413a 40%,#201b20);border-radius:10px 10px 8px 8px;box-shadow:0 12px 28px #100e16}
+.tm-bottle:before{content:"";position:absolute;width:24px;height:27px;left:17px;top:-23px;background:#29232a;border-radius:5px 5px 0 0}
+.tm-bottle:after{content:"CHÂTEAU\\A MARGAUX\\A 2020";white-space:pre;position:absolute;left:6px;right:6px;top:53px;height:42px;background:#e9e0d0;color:#4b3940;font:600 7px/1.4 Georgia;text-align:center;display:flex;align-items:center;justify-content:center;padding-top:8px}
+.tm-scan-corners{position:absolute;inset:18px;pointer-events:none;background:linear-gradient(#d9c5f6,#d9c5f6) left top/22px 2px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) left top/2px 22px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) right top/22px 2px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) right top/2px 22px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) left bottom/22px 2px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) left bottom/2px 22px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) right bottom/22px 2px no-repeat,linear-gradient(#d9c5f6,#d9c5f6) right bottom/2px 22px no-repeat}
+.tm-scan-caption{position:absolute;bottom:10px;left:0;right:0;text-align:center;color:#eee7f8;font-size:8px;letter-spacing:.12em}
+.tm-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.tm-info{background:#f5f1f8;border-radius:10px;padding:9px}.tm-info small{display:block;color:#968ba0;font-size:8px}.tm-info b{font-size:11px;color:#453a53}
+.tm-taste-list{display:grid;gap:9px;margin-top:8px}
+.tm-taste-row{display:grid;grid-template-columns:62px 1fr 24px;align-items:center;gap:8px;font-size:10px;color:#6d6377}
+.tm-taste-row input{width:100%;accent-color:#9677b7}
+.tm-hex-wrap{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center}
+.tm-hex-wrap canvas{width:100%;max-width:180px;justify-self:center}
+.tm-hex-legend{font-size:9px;line-height:1.9;color:#746a7e}
+.tm-action{background:#4c3e5d;color:#fff;border-color:#4c3e5d;padding:12px 16px;font-weight:600;letter-spacing:.04em}
+.tm-action.secondary{background:#fff;color:#554765;border-color:#ded5e8;padding:17px 28px;min-width:250px;min-height:68px;font-size:14px;border-radius:16px;font-weight:700;letter-spacing:.06em}
+.tm-action:disabled{opacity:.4;cursor:not-allowed}
+.tm-list{display:grid;gap:8px;max-height:230px;overflow:auto}
+.tm-list-item{display:flex;align-items:center;gap:10px;padding:10px;border:1px solid #eee9f2;background:#fff;border-radius:12px}
+.tm-mini-bottle{width:28px;height:43px;border-radius:5px 5px 4px 4px;background:linear-gradient(90deg,#211a23,#695345,#231c25);position:relative;flex:none}
+.tm-mini-bottle:before{content:"";position:absolute;top:-8px;left:9px;width:10px;height:10px;background:#29232c;border-radius:2px}
+.tm-list-item b{font-size:10px;color:#43384f;display:block}.tm-list-item small{font-size:8px;color:#8b8294}
+.tm-qr{display:grid;place-items:center;background:white;border:1px solid #ece6f1;border-radius:15px;padding:14px;min-height:190px}
+#tmQrCanvas{width:150px;height:150px}
+.tm-hint{font-size:9px;color:#92889b;line-height:1.6}
+.tm-button-hotspot{border:0;border-radius:50%;width:34px;height:34px;background:rgba(176,137,220,.94);color:#fff;box-shadow:0 0 0 5px #c8a9eb55,0 0 24px #ae7be9;cursor:pointer;font-size:13px}
+@media(max-width:900px){#ui-design .ui-real-layout{grid-template-columns:1fr}#ui-design .ui-real-model,#ui-design .ui-real-model model-viewer{height:500px;min-height:500px}}
+@media(max-width:560px){.tm-nav button{font-size:8px}.tm-hex-wrap{grid-template-columns:1fr 1fr}.tm-app h3{font-size:22px}}
+</style><style>
+/* Requested: retain the technical overview column as intentionally blank space. */
+.spec-image.technical-drawing{
+  background:transparent !important;
+  min-height:clamp(300px, 43vw, 560px);
+  aspect-ratio:1120 / 690;
+  border:0 !important;
+  box-shadow:none !important;
+}
+.spec-image.technical-drawing:empty::before{content:none}
+@media(max-width:650px){
+  .spec-image.technical-drawing{min-height:240px;aspect-ratio:1.45 / 1}
+}
+</style><style id="v26-hero-footer-spacing">
+.hero-bottom{
+  left:0 !important; right:0 !important; bottom:38px !important;
+  padding-left:34px !important; padding-right:34px !important;
+  box-sizing:border-box !important;
+}
+@media(max-width:650px){
+  .hero-bottom{padding-left:18px !important;padding-right:18px !important;bottom:24px !important;gap:16px}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="wordmark">TASTING MEMORY<span>2030 / SMART TASTING DEVICE</span></div>
+<div class="header-note">A NEW WAY TO REMEMBER EVERY TASTE</div>
+</header>
+<main id="top">
+<section class="hero section-shell">
+<div class="hero-copy">
+<p class="eyebrow">2030 LIQUOR EXPO · FUTURE EXPERIENCE</p>
+<h1>Tasting<br/><em>Memory.</em></h1>
+<p class="hero-lead">기록을 넘어, 취향을 발견하는<br/>새로운 테이스팅 경험.</p>
+<p class="hero-desc">주류 라벨을 인식하고, 테이스팅 경험을 기록하며,<br/>나의 취향에 가까운 새로운 주류를 발견하는 스마트 디바이스.</p>
+</div>
+<div class="hero-art">
+<div class="hero-halo"></div>
+<img alt="Tasting Memory 스마트 테이스팅 디바이스를 손으로 조작하는 제품 이미지" src="assets/1022b4d6960a.png"/>
+</div>
+<div class="hero-bottom"><span>DESIGNED FOR THE NEXT TASTING EXPERIENCE</span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+<section class="intro section-shell">
+<div class="section-kicker"><span>01 / PROJECT OVERVIEW</span><span>THE CONTEXT</span></div>
+<div class="intro-grid">
+<div>
+<p class="eyebrow violet">THE IDEA</p>
+<h2>Every taste has<br/>a <em>memory.</em></h2>
+</div>
+<div class="intro-text">
+<p class="statement">Tasting Memory는 주류 박람회에서 개인의 테이스팅 경험을 기록하고, AI를 통해 취향에 맞는 새로운 주류를 발견하도록 돕는 미래형 스마트 테이스팅 디바이스.</p>
+<p>2030년의 주류 박람회에서 다양한 술을 경험하는 과정은 즐겁지만, 각각의 향과 맛을 기억하고 나에게 맞는 다음 주류를 찾는 일은 여전히 번거롭습니다. Tasting Memory는 그 경험을 기록과 발견으로 연결합니다.</p>
+</div>
+</div>
+<div class="problem-grid">
+<article><div class="problem-illustration-wrap"><svg aria-label="겹쳐진 테이스팅 잔과 기억 표시" class="problem-illustration" role="img" viewbox="0 0 120 86"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M22 17h27l-3 27a11 11 0 0 1-21 0z"></path><path d="M28 44h15M35 55v10m-9 0h18"></path><path d="M67 12h27l-3 27a11 11 0 0 1-21 0z"></path><path d="M73 39h15M80 50v15m-9 0h18"></path><path d="M57 10l4-5m7 6 4-6"></path><circle cx="99" cy="62" r="12"></circle><path d="M99 55v8l5 3"></path></g></svg></div><span>01</span><h4>기억하기 어려운 테이스팅</h4><p>여러 주류를 시음하다 보면 각각의 맛과 향을 정확히 기억하기 어렵습니다.</p></article>
+<article><div class="problem-illustration-wrap"><svg aria-label="메모와 기록이 흩어진 모습" class="problem-illustration" role="img" viewbox="0 0 120 86"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M28 13h42l12 12v47H28z"></path><path d="M70 13v13h12M39 38h31M39 48h24M39 58h27"></path><path d="M14 24l8-7m-8 0 8 7M92 23l9-8m-9 0 9 8M91 57l8 8m-8 0 8-8"></path><circle cx="93" cy="42" r="8"></circle></g></svg></div><span>02</span><h4>번거로운 기록과 관리</h4><p>마음에 드는 주류의 정보를 매번 직접 기록하고 정리하는 과정이 번거롭습니다.</p></article>
+<article><div class="problem-illustration-wrap"><svg aria-label="취향에 맞는 부스를 찾기 어려운 모습" class="problem-illustration" role="img" viewbox="0 0 120 86"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M18 68h84M26 68V39h22v29M56 68V25h22v43M86 68V44h12v24"></path><path d="M31 39v-8h12v8M61 25v-8h12v8M90 44v-7h5v7"></path><path d="M15 17l10-7 10 7M25 10v13M88 16l8 8 8-8M96 24V10"></path><circle cx="60" cy="50" r="7"></circle><path d="M60 43v7l5 3"></path></g></svg></div><span>03</span><h4>새로운 취향 발견의 어려움</h4><p>내가 좋아하는 맛과 비슷한 주류나 해당 부스를 찾아가기 어렵습니다.</p></article>
+</div>
+</section>
+<section class="device-section">
+<div class="section-shell">
+<div class="section-kicker light"><span>02 / INTERACTIVE DEVICE</span><span>EXPLORE THE OBJECT</span></div>
+<div class="section-title-row light">
+<div><p class="eyebrow">TASTING MEMORY · 3D MODEL</p><h2>Explore<br/>the <em>device.</em></h2></div>
+<p>제품의 실제 3D 모델을 회전해 살펴보고, 각 부품을 선택해 기능을 확인해 보세요. 다이얼과 버튼의 작동도 직접 체험할 수 있습니다.</p>
+</div>
+<div class="viewer-embed-wrap"><iframe allow="fullscreen" class="viewer-embed" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ko&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Tasting Memory — 3D Product Viewer&lt;/title&gt;
+&lt;style&gt;
+:root{--ink:#25252a;--muted:#85858d;--line:rgba(35,35,42,.12)}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;min-height:100%;font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,sans-serif;color:var(--ink);background:transparent}
+header{display:none;height:76px;padding:0 5.2vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fff}
+.brand{font-size:13px;letter-spacing:.2em;font-weight:650}.tag{font-size:10px;letter-spacing:.16em;color:var(--muted)}
+main{width:100%;height:100%;margin:0;padding:0}
+.intro{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:24px}
+.eyebrow{font-size:10px;letter-spacing:.23em;color:#8d829f;margin-bottom:13px}
+h1{margin:0;font-weight:450;letter-spacing:-.045em;font-size:clamp(30px,4vw,48px)}
+.sub{margin:10px 0 0;color:#777780;font-size:13px}
+.stage{position:relative;isolation:isolate;overflow:hidden;border:0;border-radius:3px;background:radial-gradient(ellipse at 50% 38%,rgba(255,255,255,.99) 0%,rgba(250,247,253,.98) 43%,rgba(239,233,247,.99) 100%);box-shadow:inset 0 0 90px rgba(164,142,194,.09);height:100%;min-height:520px}
+.stage::before{content:&quot;&quot;;position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 16% 18%,rgba(213,196,234,.18),transparent 38%),radial-gradient(ellipse at 88% 78%,rgba(194,177,220,.16),transparent 42%)}
+.stage model-viewer{position:relative;z-index:1;background:transparent!important}
+model-viewer{width:100%;height:100%;display:block;background:transparent;--poster-color:transparent;--progress-bar-color:#aa98d1;outline:none}
+.hint{position:absolute;left:24px;bottom:22px;color:#81788c;font-size:10px;letter-spacing:.12em;pointer-events:none}
+.controls{position:absolute;right:22px;bottom:18px;display:flex;gap:8px}
+button{border:1px solid rgba(50,50,60,.16);border-radius:2px;background:rgba(255,255,255,.9);color:#554765;padding:11px 14px;font-size:10px;letter-spacing:.08em;cursor:pointer}
+button:hover,button.active{background:#292831;color:white}
+.status{position:absolute;inset:0;display:grid;place-items:center;color:#898591;font-size:11px;letter-spacing:.14em;text-align:center;padding:30px;pointer-events:none}
+.meta{display:flex;justify-content:space-between;padding-top:17px;color:#85858d;font-size:10px;letter-spacing:.13em}
+footer{display:none;border-top:1px solid var(--line);padding:20px 5.2vw;display:flex;justify-content:space-between;color:#92929a;font-size:9px;letter-spacing:.16em}
+@media(max-width:700px){header{height:62px;padding:0 20px}main{padding:32px 16px 24px}.intro{display:block}.stage{height:66vh;min-height:430px}.controls{right:10px;bottom:10px;gap:5px}button{padding:10px 9px;font-size:9px}.hint{left:12px;bottom:17px;font-size:8px}footer{padding:16px 20px}}
+
+/* Embedded presentation mode */
+html,body{min-height:0!important;height:100%;background:transparent!important;overflow:hidden}
+header,.intro,.meta,footer{display:none!important}
+main{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
+.stage{height:660px!important;min-height:660px!important;max-height:none!important;border:0!important;border-radius:0!important;box-shadow:inset 0 0 90px rgba(164,142,194,.09)!important;position:relative!important;isolation:isolate;background:radial-gradient(ellipse at 50% 38%,rgba(255,255,255,.99) 0%,rgba(250,247,253,.98) 43%,rgba(239,233,247,.99) 100%)!important}
+.stage::before{content:&quot;&quot;;position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 16% 18%,rgba(213,196,234,.18),transparent 38%),radial-gradient(ellipse at 88% 78%,rgba(194,177,220,.16),transparent 42%)}
+.stage::after{content:none!important}
+.stage model-viewer{position:relative;z-index:1;background:transparent!important}
+.hint,.controls,.status{z-index:3}
+@media(max-width:700px){.stage{height:520px!important;min-height:520px!important}}
+&lt;/style&gt;
+&lt;script type=&quot;module&quot;&gt;
+try {
+  await import('https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js');
+} catch (e) {
+  try { await import('https://cdn.jsdelivr.net/npm/@google/model-viewer@4.0.0/dist/model-viewer.min.js'); }
+  catch (e2) { document.addEventListener('DOMContentLoaded',()=&gt;{document.getElementById('status').textContent='3D 뷰어 라이브러리를 불러오지 못했습니다. 인터넷 연결을 확인해 주세요.';}); }
+}
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;main style=&quot;width:100%;height:100%;max-width:none;margin:0;padding:0&quot;&gt;&lt;section class=&quot;stage&quot;&gt;
+&lt;model-viewer id=&quot;product&quot; alt=&quot;Tasting Memory product 3D model&quot;
+  camera-controls auto-rotate rotation-per-second=&quot;12deg&quot; interaction-prompt=&quot;none&quot;
+  touch-action=&quot;pan-y&quot; shadow-intensity=&quot;1.45&quot; shadow-softness=&quot;0.62&quot;
+  exposure=&quot;1.1&quot; environment-image=&quot;neutral&quot; tone-mapping=&quot;aces&quot;
+  camera-target=&quot;3m 2.35m 2m&quot; camera-orbit=&quot;0deg 75deg 14m&quot; field-of-view=&quot;30deg&quot;
+  min-camera-orbit=&quot;auto 10deg 8m&quot; max-camera-orbit=&quot;auto 170deg 30m&quot;&gt;
+&lt;/model-viewer&gt;
+&lt;div class=&quot;status&quot; id=&quot;status&quot;&gt;3D MODEL LOADING…&lt;/div&gt;
+&lt;div class=&quot;hint&quot;&gt;DRAG TO ROTATE · SCROLL TO ZOOM&lt;/div&gt;
+&lt;div class=&quot;controls&quot;&gt;&lt;button id=&quot;rotate&quot; class=&quot;active&quot;&gt;AUTO ROTATE&lt;/button&gt;&lt;button id=&quot;reset&quot;&gt;RESET VIEW&lt;/button&gt;&lt;/div&gt;
+&lt;/section&gt;
+&lt;/main&gt;
+&lt;script&gt;
+const viewer=document.getElementById('product'),status=document.getElementById('status');
+viewer.addEventListener('load',()=&gt;{status.style.display='none';});
+viewer.addEventListener('error',e=&gt;{status.textContent='모델을 불러오지 못했습니다: '+(e.detail?.type||'GLB load error');});
+const modelSrc='assets/c172f6cfdf5a.glb';
+if(customElements.get('model-viewer')){viewer.src=modelSrc;}else{customElements.whenDefined('model-viewer').then(()=&gt;{viewer.src=modelSrc;}).catch(()=&gt;{status.textContent='3D 뷰어를 불러오지 못했습니다. 인터넷 연결을 확인해 주세요.';});}
+setTimeout(()=&gt;{if(status.style.display!=='none' &amp;&amp; status.textContent.includes('LOADING')) status.textContent='3D 모델을 불러오는 중 문제가 발생했습니다. 새로고침하거나 인터넷 연결을 확인해 주세요.';},18000);
+document.getElementById('rotate').addEventListener('click',e=&gt;{viewer.toggleAttribute('auto-rotate');e.currentTarget.classList.toggle('active');});
+document.getElementById('reset').addEventListener('click',()=&gt;{viewer.cameraOrbit='0deg 75deg 14m';viewer.cameraTarget='3m 2.35m 2m';viewer.fieldOfView='30deg';});
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;" title="Tasting Memory interactive 3D product viewer"></iframe></div>
+<div class="device-feature-strip">
+<article><span>01 / INPUT</span><b>Camera</b><p>라벨 촬영 및 주류 정보 인식</p></article>
+<article><span>02 / RECORD</span><b>Dial + Button</b><p>테이스팅 항목 조절 및 저장</p></article>
+<article><span>03 / GUIDE</span><b>Hex LED</b><p>취향에 맞는 부스 방향 안내</p></article>
+</div>
+</div>
+</section>
+<section class="ai-section section-shell" id="ai-process">
+<div class="section-kicker"><span>03 / AI PROCESS</span><span>CAPTURE · SAVE · ANALYZE · GUIDE</span></div>
+<div class="section-title-row"><div><p class="eyebrow violet">HOW TASTING MEMORY WORKS</p><h2>From taste<br/>to <em>discovery.</em></h2></div><p class="ai-intro-copy">라벨 촬영부터 기록, 저장, 방향 안내까지. 각 단계를 선택하면 실제 제품의 카메라·다이얼·버튼·육각 LED가 작동하는 모습을 확인할 수 있습니다.</p></div>
+<div class="ai-story-shell">
+<div class="ai-visual-card">
+<div class="ai-visual-head"><span>LIVE PRODUCT EXPERIENCE</span><span id="aiStageState">01 / CAMERA SCAN</span></div>
+<div class="ai-stage" data-step="1" id="aiStage">
+<model-viewer alt="Tasting Memory 3D product model demonstrating AI process" camera-controls="" camera-orbit="-28deg 68deg 12m" camera-target="3m 2.35m 2m" environment-image="neutral" exposure="1.12" field-of-view="34deg" id="aiProductModel" interaction-prompt="none" max-camera-orbit="auto 155deg 22m" min-camera-orbit="auto 18deg 7m" shadow-intensity="0.65" shadow-softness="0.9" src="assets/d03d7dc7d6c5.glb" style="background:transparent;--poster-color:transparent" tone-mapping="aces">
+
+</model-viewer>
+</div>
+</div>
+<div class="ai-step-card">
+<div>
+<div class="ai-step-top">INTERACTIVE JOURNEY / <span id="aiStepLabel">STEP 01</span></div>
+<div class="ai-step-count" id="aiStepCount">01</div>
+<h3 id="aiStepTitle">Capture<br/>the label.</h3>
+<p id="aiStepDescription">기기 상단의 내장 카메라로 와인 라벨을 촬영합니다. AI가 라벨의 브랜드와 주류 정보를 인식해 테이스팅 기록의 기본 정보를 채웁니다.</p>
+<div class="ai-progress"><span id="aiProgressFill"></span></div>
+<div class="ai-step-hint">마우스 휠 또는 아래 단계를 클릭해 흐름을 확인하세요.</div>
+</div>
+<div class="ai-step-list">
+<button class="ai-step-button active" data-ai-step="1"><span>01</span><b>Camera · 라벨 촬영</b><i>↗</i></button>
+<button class="ai-step-button" data-ai-step="2"><span>02</span><b>RECORD · 다이얼 기록</b><i>＋</i></button>
+<button class="ai-step-button" data-ai-step="3"><span>03</span><b>SAVE · 버튼 저장</b><i>✳</i></button>
+<button class="ai-step-button" data-ai-step="4"><span>04</span><b>LED · 방향 안내</b><i>→</i></button>
+</div>
+</div>
+</div>
+</section>
+<section class="app-section ui-flow-section glass-ui-section" id="ui-design">
+<div class="section-shell">
+<div class="section-kicker light"><span>04 / UI DESIGN</span><span>THE INTERFACE ON THE DEVICE</span></div>
+<div class="section-title-row light"><div><p class="eyebrow">REAL DEVICE DISPLAY</p><h2>One device.<br/><em>Every screen.</em></h2></div><p>3D 모델의 Screen 표면을 직접 터치해 HOME, SCAN, RECORD, SAVED 항목을 선택해 보세요. 선택 즉시 디스플레이의 UI와 현재 상태, 설명이 함께 바뀝니다.</p></div>
+<div class="ui-real-layout">
+<div class="ui-real-model">
+<div class="ui-model-label">01 / TASTING MEMORY · 3D DISPLAY PREVIEW</div>
+<model-viewer alt="Tasting Memory 3D model with UI rendered on its screen" camera-controls="" camera-orbit="-28deg 58deg 10m" camera-target="3m 4.8m 1.4m" environment-image="neutral" exposure="1.15" field-of-view="28deg" id="uiRealModel" exposure="1.5" interaction-prompt="none" max-camera-orbit="auto 160deg 18m" min-camera-orbit="auto 15deg 6m" shadow-intensity="0.7" shadow-softness="0.9" src="assets/147152a3d403.glb" style="background:transparent;--poster-color:transparent" tone-mapping="aces">
+<div class="ui-device-touch" data-normal="0 0 1" data-position="3 4.05 1.20" slot="hotspot-screen-touch"><span class="touch-state" id="uiTouchState">TOUCH DISPLAY · HOME</span><button class="active" data-touch-screen="0">HOME</button><button data-touch-screen="1">SCAN</button><button data-touch-screen="2">RECORD</button><button data-touch-screen="4">SAVED</button></div></model-viewer>
+<div class="ui-model-note">DRAG TO ROTATE · SCROLL TO ZOOM · UI IS MAPPED TO DISPLAY VIEW</div>
+</div>
+<div class="ui-real-controls">
+<div>
+<div class="ui-control-top">02 / SCREEN FLOW · <span id="uiControlCount">01 / 08</span></div>
+<div class="ui-control-number" id="uiControlNumber">01</div>
+<h3 class="ui-control-title" id="uiControlTitle">HOME</h3>
+<p class="ui-control-desc" id="uiControlDesc">저장된 테이스팅 기록과 오늘의 추천을 확인하는 메인 화면입니다.</p>
+<div class="ui-screen-tabs"><button class="ui-screen-tab active" data-ui-index="0">01</button><button class="ui-screen-tab" data-ui-index="1">02</button><button class="ui-screen-tab" data-ui-index="2">03</button><button class="ui-screen-tab" data-ui-index="3">04</button><button class="ui-screen-tab" data-ui-index="4">05</button><button class="ui-screen-tab" data-ui-index="5">06</button><button class="ui-screen-tab" data-ui-index="6">07</button><button class="ui-screen-tab" data-ui-index="7">08</button></div>
+<div class="ui-screen-progress"><span id="uiScreenProgress"></span></div>
+</div>
+<div class="ui-screen-nav"><button id="uiPrev">← PREV</button><span>SCROLL / CLICK TO EXPLORE</span><button id="uiNext">NEXT →</button></div>
+</div>
+</div>
+</div>
+</section>
+<section class="scenario-section section-shell">
+<div class="section-kicker"><span>05 / EXPO USER SCENARIO</span><span>01—14 / USER JOURNEY</span></div>
+<div class="section-title-row"><div><p class="eyebrow violet">A DAY AT THE EXPO</p><h2>One visit.<br/>Many <em>discoveries.</em></h2></div><p>박람회 입장부터 기기 반납까지, Tasting Memory와 함께하는 14개의 사용 장면입니다.</p></div>
+<div class="scenario-film">
+<div class="film-heading">
+<div><span>SCENARIO FILM / PREVIEW</span><h3>A closer look at<br/><em>the tasting journey.</em></h3></div>
+<p>현재 제작 중인 사용 시나리오 영상입니다. 완성된 영상으로 추후 교체할 수 있도록 미리보기 형태로 배치했습니다.</p>
+</div>
+<div class="film-frame">
+<video controls="" playsinline="" poster="assets/10fa30d614f8.jpg" preload="metadata">
+<source src="assets/b977ead91cd5.mp4" type="video/mp4"/>
+          현재 브라우저에서는 영상을 재생할 수 없습니다.
+        </video>
+<span class="film-caption">TASTING MEMORY — USER EXPERIENCE PREVIEW</span>
+</div>
+</div>
+<div class="scenario-grid">
+<article><img alt="박람회 입장" src="assets/970ac3009f84.jpg"/><div><span>01</span><b>박람회 입장</b></div></article>
+<article><img alt="기기 수령" src="assets/52f793d3ecb5.jpg"/><div><span>02</span><b>기기 수령</b></div></article>
+<article><img alt="목걸이 착용" src="assets/cd4cf39dd19a.jpg"/><div><span>03</span><b>목걸이 착용</b></div></article>
+<article><img alt="부스 탐색" src="assets/f2ec132f7251.jpg"/><div><span>04</span><b>부스 탐색</b></div></article>
+<article><img alt="주류 시음" src="assets/3f3898d185c4.jpg"/><div><span>05</span><b>주류 시음</b></div></article>
+<article><img alt="라벨 촬영" src="assets/5404cc8ec7fc.jpg"/><div><span>05-1</span><b>라벨 촬영</b></div></article>
+<article><img alt="테이스팅 분석" src="assets/50bac12c335d.jpg"/><div><span>06</span><b>테이스팅 분석</b></div></article>
+<article><img alt="기록 저장" src="assets/0ba41f220957.jpg"/><div><span>07</span><b>기록 저장</b></div></article>
+<article><img alt="유사 주류 탐색" src="assets/579d4e0d8716.jpg"/><div><span>08</span><b>유사 주류 탐색</b></div></article>
+<article><img alt="A-24 부스 이동" src="assets/3870e942d8f3.jpg"/><div><span>09</span><b>A-24 부스 이동</b></div></article>
+<article><img alt="즐겨찾기 확인" src="assets/5ae3df0cdac7.jpg"/><div><span>10</span><b>즐겨찾기 확인</b></div></article>
+<article><img alt="QR 내보내기" src="assets/690c907f6bef.jpg"/><div><span>11</span><b>QR 내보내기</b></div></article>
+<article><img alt="휴대폰 연동" src="assets/6344051fe7f0.jpg"/><div><span>12</span><b>휴대폰 연동</b></div></article>
+<article><img alt="기록 확인" src="assets/24370489fcc6.jpg"/><div><span>13</span><b>기록 확인</b></div></article>
+<article><img alt="기기 반납" src="assets/cc72e7777a9b.jpg"/><div><span>14</span><b>기기 반납</b></div></article>
+</div>
+</section>
+<section class="design-section">
+<div class="section-shell">
+<div class="section-kicker light"><span>06 / DESIGN LANGUAGE &amp; CMF</span><span>FORM · MATERIAL · COLOR</span></div>
+<div class="section-title-row light"><div><p class="eyebrow">DESIGN DIRECTION</p><h2>Quietly<br/><em>futuristic.</em></h2></div><p>유기적 조형과 차분한 미래감, 절제된 고급스러움을 바탕으로 실버와 라벤더 톤을 조합합니다.</p></div>
+<div class="cmf-board">
+<div class="cmf-board-head">
+<div><span class="cmf-index">CMF STUDY / 01</span><h3>Soft metal.<br/><em>Subtle light.</em></h3></div>
+<p>차분한 실버 바디에 반투명한 빛과 절제된 퍼플 톤을 더해, 기술적이면서도 감각적인 테이스팅 오브제를 완성합니다.</p>
+</div>
+<div class="cmf-materials">
+<article class="material-card metal-card">
+<div class="material-visual"><div class="metal-object"></div><span class="material-code">01</span></div>
+<div class="material-info"><span>BODY / FINISH</span><b>Pearl Stainless Steel</b><small>스테인리스 스틸 · 세미 매트 펄 코팅</small></div>
+</article>
+<article class="material-card frost-card">
+<div class="material-visual"><div class="frost-object"></div><span class="material-code">02</span></div>
+<div class="material-info"><span>LIGHT DIFFUSION</span><b>Frosted Translucency</b><small>은은하게 확산되는 반투명 소재의 인상</small></div>
+</article>
+</div>
+<div class="cmf-palette">
+<div class="palette-heading"><span>COLOR PALETTE</span><small>QUIET · COOL · REFINED</small></div>
+<div class="swatch-row">
+<div class="swatch"><i style="--swatch:#F6F7F9"></i><b>PEARL WHITE</b><small>#F6F7F9</small></div>
+<div class="swatch"><i style="--swatch:#E4E6EA"></i><b>LIGHT SILVER</b><small>#E4E6EA</small></div>
+<div class="swatch"><i style="--swatch:#B7BCC3"></i><b>SOFT GRAY</b><small>#B7BCC3</small></div>
+<div class="swatch"><i style="--swatch:#A6A3C4"></i><b>LAVENDER</b><small>#A6A3C4</small></div>
+<div class="swatch"><i style="--swatch:#524A6A"></i><b>DEEP VIOLET</b><small>#524A6A</small></div>
+</div>
+</div>
+<div class="cmf-principles">
+<article><span>FORM LANGUAGE</span><b>Organic / Fluid</b><p>유기적인 곡선과 비대칭 실루엣, 부드럽게 이어지는 볼륨.</p></article>
+<article><span>SURFACE</span><b>Satin / Soft-touch</b><p>과한 광택을 줄이고 빛을 부드럽게 머금는 표면 표현.</p></article>
+<article><span>LIGHT BEHAVIOR</span><b>Focused Glow</b><p>필요한 LED 구간만 선택적으로 빛나는 절제된 인터랙션.</p></article>
+</div>
+</div>
+</div>
+</section>
+<section class="spec-section section-shell">
+<div class="section-kicker"><span>07 / PRODUCT SPECIFICATION</span><span>OBJECT DETAILS</span></div>
+<div class="section-title-row"><div><p class="eyebrow violet">TECHNICAL OVERVIEW</p><h2>Made for<br/>the <em>experience.</em></h2></div><p>박람회 현장에서 휴대하고 조작하기 쉽도록 설계한 슬림한 스마트 테이스팅 디바이스.</p></div>
+<div class="spec-layout">
+<div aria-label="Technical overview drawing area intentionally left blank" class="spec-image technical-drawing generated-drawing"></div>
+<div class="spec-table">
+<div><span>PRODUCT</span><b>Tasting Memory</b></div>
+<div><span>DIMENSION</span><b>W 6 × H 10 × D 1 cm</b></div>
+<div><span>WEIGHT</span><b>200 g</b></div>
+<div><span>BODY MATERIAL</span><b>Stainless Steel</b></div>
+<div><span>FINISH</span><b>Semi-matte Pearl Coating</b></div>
+<div><span>DISPLAY</span><b>W 5.54 × H 3.56 cm</b></div>
+<div><span>STRAP</span><b>Durable Polyester Webbing</b></div>
+<div><span>CHARGING</span><b>Rear Wireless Charging</b></div>
+<div><span>CONTROL</span><b>Rotary Dial · MARK Button</b></div>
+<div><span>GUIDE</span><b>Directional Hex LED</b></div>
+</div>
+</div>
+<div class="spec-footnote">* 스트랩은 200g 제품을 지지할 수 있도록 소재와 연결 구조의 내구성을 고려한 설정입니다. 실제 제작 시 하중 및 봉제·연결부 검증이 필요합니다.</div>
+</section>
+</main>
+<footer>
+<div class="footer-top"><div><p class="eyebrow">2030 · LIQUOR EXPO</p><h2>Tasting<br/><em>Memory.</em></h2></div><div class="footer-phrase">TASTE.<br/>SAVE.<br/>DISCOVER.</div></div>
+<div class="footer-bottom"><span>TASTING MEMORY / SMART TASTING DEVICE</span><span>END OF EXPERIENCE — 2030</span></div>
+</footer>
+<script>
+(() => {
+  const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (entry.isIntersecting) { entry.target.classList.add('is-visible'); revealObserver.unobserve(entry.target); }
+  }), { threshold: .12 });
+  document.querySelectorAll('.hero-copy,.hero-art,.intro-grid,.persona-row,.problem-grid,.section-title-row,.process-line,.location-diagram,.app-card,.scenario-grid article,.cmf-image,.cmf-notes,.spec-layout').forEach(el => {
+    el.classList.add('reveal'); revealObserver.observe(el);
+  });
+})();
+</script>
+<script>
+(()=>{
+ const root=document.getElementById('uiSequence');
+ if(!root)return;
+ const slides=[...root.querySelectorAll('.glass-ui-slide')];
+ const dots=[...root.querySelectorAll('.glass-ui-dot')];
+ const count=document.getElementById('uiCurrentCount');
+ const progress=document.getElementById('uiProgress');
+ const stage=root.querySelector('.glass-ui-stage');
+ const viewer=document.getElementById('uiScreenModel');
+ const status=document.getElementById('uiModelStatus');
+ const zoomLabel=document.getElementById('glassZoomLabel');
+ const fullBtn=document.getElementById('glassFullView');
+ const screenBtn=document.getElementById('glassScreenView');
+ let index=0,lastWheel=0,zoomed=false,loaded=false;
+ const fullTarget='3m 2.35m 2m', screenTarget='3m 4.92m 0.17m';
+ function setCamera(close){
+   if(!viewer)return;
+   zoomed=close;
+   viewer.cameraTarget=close?screenTarget:fullTarget;
+   viewer.cameraOrbit=close?'0deg 75deg 8.2m':'0deg 75deg 14m';
+   viewer.fieldOfView=close?'27deg':'34deg';
+   fullBtn?.classList.toggle('active',!close);
+   screenBtn?.classList.toggle('active',close);
+   if(zoomLabel){zoomLabel.querySelector('b').textContent=close?'DISPLAY DETAIL':'FULL DEVICE VIEW';}
+ }
+ function show(n){
+   index=Math.max(0,Math.min(slides.length-1,n));
+   slides.forEach((el,i)=>{el.classList.toggle('active',i===index);el.setAttribute('aria-hidden',i===index?'false':'true');});
+   dots.forEach((el,i)=>el.classList.toggle('active',i===index));
+   if(count)count.innerHTML=String(index+1).padStart(2,'0')+' <i>/ 08</i>';
+   if(progress)progress.style.width=((index+1)/slides.length*100)+'%';
+ }
+ viewer?.addEventListener('load',()=>{
+   loaded=true;if(status)status.style.display='none';
+   // Begin with the complete device, then make a deliberate camera move toward its display.
+   setCamera(false);
+   const io=new IntersectionObserver(entries=>{
+     if(entries.some(e=>e.isIntersecting)){
+       setTimeout(()=>setCamera(true),450);
+       io.disconnect();
+     }
+   },{threshold:.22});
+   io.observe(document.getElementById('ui-design'));
+ });
+ viewer?.addEventListener('error',()=>{if(status)status.textContent='3D MODEL COULD NOT BE LOADED — CHECK INTERNET CONNECTION';});
+ fullBtn?.addEventListener('click',()=>setCamera(false));
+ screenBtn?.addEventListener('click',()=>setCamera(true));
+ document.getElementById('uiPrev')?.addEventListener('click',()=>show(index-1));
+ document.getElementById('uiNext')?.addEventListener('click',()=>show(index+1));
+ dots.forEach(dot=>dot.addEventListener('click',()=>show(Number(dot.dataset.go))));
+ stage?.addEventListener('wheel',e=>{
+   const now=Date.now();if(Math.abs(e.deltaY)<15||now-lastWheel<480)return;
+   const dir=e.deltaY>0?1:-1;
+   if((dir>0&&index<slides.length-1)||(dir<0&&index>0)){e.preventDefault();lastWheel=now;show(index+dir);}
+ },{passive:false});
+ stage?.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowRight'){e.preventDefault();show(index+1);}if(e.key==='ArrowUp'||e.key==='ArrowLeft'){e.preventDefault();show(index-1);}});
+ let touchY=null;stage?.addEventListener('touchstart',e=>{touchY=e.touches[0]?.clientY??null;},{passive:true});
+ stage?.addEventListener('touchend',e=>{if(touchY===null)return;const dy=touchY-(e.changedTouches[0]?.clientY??touchY);if(Math.abs(dy)>40)show(index+(dy>0?1:-1));touchY=null;},{passive:true});
+ show(0);
+})();
+</script>
+<script>
+(()=>{
+ const aiSteps={
+ 1:{title:'Capture the label.',desc:'제품이 후면으로 회전해 실제 카메라 렌즈 위치를 보여줍니다. 후면 카메라를 통해 와인 라벨을 촬영하고 주류 정보를 인식합니다.',state:'01 / REAR CAMERA',orbit:'180deg 90deg 14.5m',target:'3m 2.48m 2.05m',action:'camera'},
+ 2:{title:'Record your taste.',desc:'시음 후 다이얼을 돌려 취향을 기록합니다. 다이얼의 실제 원형 면에 수직인 중심축을 기준으로 제자리에서 360° 회전합니다.',state:'02 / RECORD',orbit:'-18deg 72deg 11m',target:'3m 1.1m 3.3m',action:'record'},
+ 3:{title:'Save your record.',desc:'버튼을 눌러 시음 기록을 저장합니다. 본체의 Button 파트가 실제로 눌렸다가 돌아오며 저장 동작을 표현합니다.',state:'03 / SAVE',orbit:'0deg 68deg 11m',target:'3m 1.4m 3.7m',action:'save'},
+ 4:{title:'Follow the light.',desc:'본체의 LED 1–6이 순차적으로 점등되며 추천 부스 방향을 안내합니다. LED 라인을 따라 라벤더 빛이 흐르는 모션을 확인할 수 있습니다.',state:'04 / LED DIRECTION',orbit:'24deg 72deg 11m',target:'3m 1.1m 3.3m',action:'guide'}
+ };
+ const aiModel=document.getElementById('aiProductModel'); let aiStep=1;
+ function matByName(viewer,name){return viewer?.model?.materials?.find(m=>m.name===name)}
+ function setEmission(viewer,name,on){const m=matByName(viewer,name);if(m?.setEmissiveFactor)m.setEmissiveFactor(on?[0.75,0.42,1.0]:[0,0,0]);}
+ function stopAnim(viewer){try{viewer.pause();}catch(e){}}
+ function playAnim(viewer,name){
+   if(!viewer)return;
+   try{
+     stopAnim(viewer);
+     viewer.removeAttribute('loop');
+     viewer.animationName=name;
+     viewer.playbackRate=1;
+     viewer.currentTime=0;
+     viewer.play();
+   }catch(e){console.warn(name+' animation could not start',e);}
+ }
+ function stopDialOnly(){
+   if(!aiModel)return;
+   try{aiModel.pause();aiModel.currentTime=0;}catch(e){}
+ }
+ function animateDialOnly(){
+   if(!aiModel?.model)return;
+   try{
+     aiModel.pause();
+     aiModel.animationName='Dial Rotate';
+     aiModel.setAttribute('loop','');
+     aiModel.playbackRate=1;
+     aiModel.currentTime=0;
+     aiModel.play();
+   }catch(error){console.warn('Dial rotation could not start',error);}
+ }
+let ledPulseFrame=0,ledPulseStart=0;
+ const ledMaterialNames=['LED_RING','LED_SEGMENT_1','LED_SEGMENT_2','LED_SEGMENT_3','LED_SEGMENT_4','LED_SEGMENT_5','LED_SEGMENT_6'];
+ function ledMaterials(){
+   return ledMaterialNames.map(name=>matByName(aiModel,name)).filter(Boolean);
+ }
+ function stopGuideLed(){
+   if(ledPulseFrame)cancelAnimationFrame(ledPulseFrame);
+   ledPulseFrame=0;
+   ledMaterials().forEach(m=>m.setEmissiveFactor?.([0,0,0]));
+ }
+ function resetAiLights(){
+   stopGuideLed();
+   setEmission(aiModel,'CAMERA_LENS_ACTIVE',false);
+   ledMaterialNames.forEach(name=>setEmission(aiModel,name,false));
+ }
+ function animateGuideLed(){
+   if(!aiModel?.model)return;
+   const materials=ledMaterials();
+   if(!materials.length)return;
+   ledPulseStart=performance.now();
+   const tick=(now)=>{
+     if(aiStep!==4){stopGuideLed();return;}
+     const elapsed=now-ledPulseStart;
+     materials.forEach((material,index)=>{
+       // Soft lavender light travels around the six directional LED facets.
+       const phase=index===0?0:(index-1)*(Math.PI/3);
+       const wave=(Math.sin(elapsed/900*Math.PI*2-phase)+1)/2;
+       const level=index===0?(0.22+wave*0.42):(0.08+wave*0.92);
+       material.setEmissiveFactor?.([level*0.62,level*0.43,level*1.0]);
+     });
+     ledPulseFrame=requestAnimationFrame(tick);
+   };
+   stopGuideLed();
+   ledPulseFrame=requestAnimationFrame(tick);
+ }
+ function setAiStep(n){n=Math.max(1,Math.min(4,n));aiStep=n;const d=aiSteps[n];const stage=document.getElementById('aiStage');if(!stage)return;stage.dataset.step=String(n);
+  document.getElementById('aiStageState').textContent=d.state;document.getElementById('aiStepLabel').textContent='STEP 0'+n;document.getElementById('aiStepCount').textContent='0'+n;document.getElementById('aiStepTitle').innerHTML=d.title.replace(' ','<br/>');document.getElementById('aiStepDescription').textContent=d.desc;document.getElementById('aiProgressFill').style.width=(n*25)+'%';
+  document.querySelectorAll('.ai-step-button').forEach(b=>b.classList.toggle('active',Number(b.dataset.aiStep)===n));
+  if(aiModel){aiModel.cameraOrbit=d.orbit;aiModel.cameraTarget=d.target;}
+  if(n!==2){
+    stopDialOnly();
+    stopAnim(aiModel);
+    try{
+      if(aiModel){aiModel.currentTime=0;aiModel.playbackRate=1;}
+    }catch(e){}
+    aiModel?.removeAttribute('loop');
+  }
+  // The Button Press clip belongs only to SAVE; stop and rewind it for every other step.
+  if(d.action!=='save' && d.action!=='record'){
+    stopAnim(aiModel);
+    try{aiModel.currentTime=0;}catch(e){}
+  }
+  resetAiLights();
+  if(d.action==='camera'){setEmission(aiModel,'CAMERA_LENS_ACTIVE',true);}
+  if(d.action==='record'){animateDialOnly();}
+  if(d.action==='save'){playAnim(aiModel,'Button Press');}
+  if(d.action==='guide'){
+    // Animate the built-in LED ring and six segments as a directional light cue.
+    stopAnim(aiModel);
+    try{aiModel.currentTime=0;}catch(e){}
+    animateGuideLed();
+  }
+ }
+ aiModel?.addEventListener('load',()=>setAiStep(aiStep));
+ if(aiModel?.loaded)setAiStep(aiStep);
+ document.querySelectorAll('.ai-step-button').forEach(b=>b.addEventListener('click',()=>setAiStep(Number(b.dataset.aiStep))));
+ const aiCard=document.querySelector('.ai-visual-card');let aiWheelLock=0;
+ aiCard?.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)<12)return;const now=Date.now();if(now-aiWheelLock<520)return;aiWheelLock=now;setAiStep(aiStep+(e.deltaY>0?1:-1));},{passive:true});
+ let aiTouchY=0;aiCard?.addEventListener('touchstart',e=>aiTouchY=e.touches[0].clientY,{passive:true});aiCard?.addEventListener('touchend',e=>{const dy=aiTouchY-e.changedTouches[0].clientY;if(Math.abs(dy)>45)setAiStep(aiStep+(dy>0?1:-1));},{passive:true});
+ setAiStep(1);
+ const uiImages=["assets/e443303e9eb8.jpg","assets/a657be88e54f.jpg","assets/78e65e93aa29.jpg","assets/5993b283b338.jpg","assets/c6d55ac3d2c2.jpg","assets/7b6b67ddd5e9.jpg","assets/43d12818fcb5.jpg","assets/02f2d35f82de.jpg"];
+ const uiNames=['HOME','LABEL SCAN','TASTING RECORD','RECORD COMPLETE','FAVORITES','ALL RECORDS','TASTING DETAIL','SIMILAR TASTES'];
+ const uiDescriptions=['저장된 테이스팅 기록과 오늘의 추천을 확인하는 메인 화면입니다.','카메라로 주류 라벨을 인식하고 제품 정보를 불러옵니다.','향과 맛, 바디감 등 시음한 주류의 취향을 기록합니다.','마음에 드는 주류를 저장해 나만의 취향 데이터로 쌓습니다.','다시 찾고 싶은 주류를 모아 빠르게 확인합니다.','기록한 주류를 날짜와 취향별로 살펴봅니다.','선택한 주류의 상세 정보와 테이스팅 노트를 확인합니다.','축적된 취향과 가까운 새로운 주류를 추천받습니다.'];
+ let uiIndex=0;const uiViewer=document.getElementById('uiRealModel');let texCache=[];
+ async function applyScreen(n){
+    if(!uiViewer?.model)return;
+    try{
+      const mats=uiViewer.model.materials||[];
+      const m=mats.find(x=>x.name==='Black Glass Screen')||mats.find(x=>(x.name||'').toLowerCase().includes('screen'));
+      if(!m?.pbrMetallicRoughness)return;
+      let tx=texCache[n];
+      if(!tx){
+        // Brighten the source artwork before mapping it onto the glass screen.
+        const image=new Image();
+        image.src=uiImages[n];
+        await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=reject;});
+        const canvas=document.createElement('canvas');
+        canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;
+        const ctx=canvas.getContext('2d');
+        ctx.filter='brightness(1.42) contrast(1.12) saturate(1.08)';
+        ctx.drawImage(image,0,0);
+        tx=await uiViewer.createTexture(canvas.toDataURL('image/png'));
+        texCache[n]=tx;
+      }
+      const screenTexture=m.pbrMetallicRoughness.baseColorTexture;
+      if(screenTexture?.setTexture)screenTexture.setTexture(tx);
+      else if(m.pbrMetallicRoughness.setBaseColorTexture)m.pbrMetallicRoughness.setBaseColorTexture(tx);
+      // Preserve the black-glass appearance while allowing the embedded UX screen art to read clearly.
+      m.pbrMetallicRoughness.setMetallicFactor?.(0.0);
+      m.pbrMetallicRoughness.setRoughnessFactor?.(0.34);
+      m.pbrMetallicRoughness.setBaseColorFactor?.([1,1,1,1]);
+      m.setEmissiveFactor?.([1.25,1.25,1.25]);
+    }catch(err){console.warn('Screen texture update failed',err);}
+  }
+ function setUi(n){uiIndex=(n+8)%8;applyScreen(uiIndex);document.getElementById('uiControlNumber').textContent=String(uiIndex+1).padStart(2,'0');document.getElementById('uiControlCount').textContent=String(uiIndex+1).padStart(2,'0')+' / 08';document.getElementById('uiControlTitle').textContent=uiNames[uiIndex];document.getElementById('uiControlDesc').textContent=uiDescriptions[uiIndex];document.getElementById('uiScreenProgress').style.width=((uiIndex+1)/8*100)+'%';document.querySelectorAll('.ui-screen-tab').forEach(b=>b.classList.toggle('active',Number(b.dataset.uiIndex)===uiIndex));}
+ uiViewer?.addEventListener('load',()=>applyScreen(uiIndex));
+ document.querySelectorAll('.ui-screen-tab').forEach(b=>b.addEventListener('click',()=>setUi(Number(b.dataset.uiIndex))));document.getElementById('uiPrev')?.addEventListener('click',()=>setUi(uiIndex-1));document.getElementById('uiNext')?.addEventListener('click',()=>setUi(uiIndex+1));
+ const uiModelCard=document.querySelector('.ui-real-model');let uiWheelLock=0;uiModelCard?.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)<10)return;const now=Date.now();if(now-uiWheelLock<450)return;uiWheelLock=now;setUi(uiIndex+(e.deltaY>0?1:-1));},{passive:true});
+ let uiTouchY=0;uiModelCard?.addEventListener('touchstart',e=>uiTouchY=e.touches[0].clientY,{passive:true});uiModelCard?.addEventListener('touchend',e=>{const dy=uiTouchY-e.changedTouches[0].clientY;if(Math.abs(dy)>45)setUi(uiIndex+(dy>0?1:-1));},{passive:true});
+ setUi(0);
+})();
+</script><script id="tasting-memory-app-script-v11">
+(()=>{
+const start=()=>{
+ const viewer=document.getElementById('uiRealModel');
+ const host=document.querySelector('#ui-design .ui-real-controls');
+ if(!viewer||!host)return;
+ const names=['HOME','CAMERA','RECORDS','FAVORITES','QR CODE','TASTING RECORD','NEARBY BOOTHS'];
+ const descriptions=[
+ 'CAMERA, RECORDS, FAVORITES, QR CODE 메뉴를 선택해 기능을 체험하세요.',
+ '와인 라벨을 촬영하고 AI가 이름과 기본 정보를 분석합니다.',
+ '저장된 모든 테이스팅 기록을 확인합니다.',
+ '마음에 들어 즐겨찾기한 주류만 모아봅니다.',
+ '테이스팅 기록을 휴대폰으로 가져갈 수 있는 QR 코드입니다.',
+ '육각형 그래프를 직접 조절해 맛의 특징을 기록하세요. 저장은 제품의 Button을 눌러 완료합니다.',
+ '저장한 주류와 맛의 특성이 비슷한 주류가 있는 박람회 부스를 안내합니다.'
+ ];
+ let page='home', scanned=false, saved=false, favorite=false;
+ let values={Sweetness:3,Acidity:2,Tannin:4,Body:4,Aroma:5,Finish:3};
+ const records=[];
+ const wines=[
+  {name:'Château Margaux 2020',type:'Red Wine · Bordeaux, France',abv:'13.5%',grape:'Cabernet Sauvignon blend',booth:'B-12 · Bordeaux Grand Cru'},
+  {name:'Pavillon Rouge 2021',type:'Red Wine · Margaux, France',abv:'13.0%',grape:'Merlot blend',booth:'B-14 · Left Bank Selection'},
+  {name:'Opus One 2019',type:'Red Wine · Napa Valley, USA',abv:'14.5%',grape:'Cabernet Sauvignon blend',booth:'C-08 · New World Icons'}
+ ];
+ let current=wines[0];
+ const c=document.createElement('canvas');c.width=1024;c.height=640;
+ const ctx=c.getContext('2d');
+ function round(x,y,w,h,r,fill,stroke){ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=2;ctx.stroke();}}
+ function text(t,x,y,size=24,color='#3f354c',weight='500',align='left'){ctx.fillStyle=color;ctx.font=`${weight} ${size}px Arial,sans-serif`;ctx.textAlign=align;ctx.fillText(t,x,y)}
+ function bottle(x,y,scale=1){ctx.save();ctx.translate(x,y);ctx.scale(scale,scale);round(24,0,30,24,5,'#25212a');round(13,18,52,155,10,'#29232c');round(17,77,44,56,3,'#e9e0d0');text('CHÂTEAU',39,97,7,'#59464b','700','center');text('MARGAUX',39,111,7,'#59464b','700','center');text('2020',39,124,8,'#59464b','600','center');ctx.restore();}
+ function hex(cx,cy,r){ctx.beginPath();for(let i=0;i<6;i++){let a=Math.PI/3*i-Math.PI/2;let x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;i?ctx.lineTo(x,y):ctx.moveTo(x,y)}ctx.closePath();}
+ function drawRadar(){let keys=Object.keys(values),cx=210,cy=270,r=140;ctx.save();ctx.strokeStyle='#ddd4e7';ctx.lineWidth=2;for(let k=1;k<=5;k++){hex(cx,cy,r*k/5);ctx.stroke()}for(let i=0;i<6;i++){let a=Math.PI/3*i-Math.PI/2;ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(cx+Math.cos(a)*r,cy+Math.sin(a)*r);ctx.stroke()}ctx.beginPath();keys.forEach((key,i)=>{let a=Math.PI*2*i/6-Math.PI/2,v=values[key]/5*r,x=cx+Math.cos(a)*v,y=cy+Math.sin(a)*v;i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.closePath();ctx.fillStyle='#b69ad655';ctx.fill();ctx.strokeStyle='#9879b8';ctx.lineWidth=4;ctx.stroke();keys.forEach((key,i)=>{let a=Math.PI*2*i/6-Math.PI/2,v=values[key]/5*r;ctx.beginPath();ctx.arc(cx+Math.cos(a)*v,cy+Math.sin(a)*v,6,0,Math.PI*2);ctx.fillStyle='#80629f';ctx.fill()});ctx.restore();}
+ function drawScreen(){
+  ctx.clearRect(0,0,1024,640);let g=ctx.createLinearGradient(0,0,1024,640);g.addColorStop(0,'#fff');g.addColorStop(1,'#f1edf7');ctx.fillStyle=g;ctx.fillRect(0,0,1024,640);
+  text('TASTING MEMORY',52,52,20,'#4e4160','700');text('2030 · SMART TASTING',972,52,13,'#988ba5','500','right');ctx.strokeStyle='#e4dce9';ctx.beginPath();ctx.moveTo(52,76);ctx.lineTo(972,76);ctx.stroke();
+  if(page==='home'){
+   text('Good taste, remembered.',52,145,35,'#3c3249','600');text('Choose a function to continue',52,180,16,'#8b8195');
+   const items=[['◎','CAMERA'],['▤','RECORDS'],['♡','FAVORITES'],['▦','QR CODE']];
+   items.forEach((it,i)=>{let x=52+(i%2)*470,y=220+Math.floor(i/2)*175;round(x,y,430,140,22,'#ffffff','#e8e0ee');text(it[0],x+45,y+83,52,'#8d70ad','500');text(it[1],x+110,y+78,23,'#51445f','600')});
+   text('SELECT A MENU',52,600,13,'#9a8fa3');
+  }else if(page==='camera'){
+   text('CAMERA SCAN',52,135,28,'#453953','600');text('Align the wine label inside the frame',52,166,15,'#8c8296');
+   round(52,195,920,350,22,'#292530');bottle(470,270,1.5);ctx.strokeStyle='#d9c4f4';ctx.lineWidth=4;ctx.strokeRect(320,225,385,285);ctx.strokeStyle='#b795db';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(320,365);ctx.lineTo(705,365);ctx.stroke();
+   text(scanned?'LABEL RECOGNIZED':'SCANNING PREVIEW',512,520,15,'#f0e7fa','600','center');round(375,570,274,46,22,'#80649f');text(scanned?'✓ ANALYZED':'SCAN LABEL',512,600,17,'#fff','600','center');
+  }else if(page==='record'){
+   text('TASTING RECORD',52,128,27,'#453953','600');bottle(78,185,1.15);text(current.name,220,220,25,'#40364d','600');text(current.type,220,252,15,'#81768e');text(`ALCOHOL  ${current.abv}`,220,286,16,'#675a75','600');text('GRAPE  '+current.grape,220,316,13,'#8a8092');
+   drawRadar();text('TASTE PROFILE',410,170,17,'#655575','600');text('Adjust each value on the side panel',410,200,13,'#91869b');Object.keys(values).forEach((k,i)=>text(`${k.toUpperCase()}  ${values[k]}/5`,410,250+i*42,15,'#655b70'));
+   round(410,485,500,70,18,saved?'#e7f1e9':'#4c3e5d');text(saved?'✓ SAVED · PRESS BUTTON TO CONTINUE':'PRESS THE MODEL BUTTON TO SAVE',660,529,17,saved?'#487452':'#fff','600','center');
+  }else if(page==='nearby'){
+   text('SIMILAR TASTE FOUND',52,132,28,'#453953','600');text('Recommended booths based on your tasting profile',52,165,15,'#8c8296');
+   wines.slice(1).forEach((w,i)=>{let y=210+i*175;round(52,y,920,140,18,'#fff','#e9e2ef');bottle(95,y+25,.62);text(w.name,190,y+55,22,'#493e56','600');text(w.type,190,y+82,14,'#82788e');text(w.booth,190,y+112,14,'#8a6cab','600');round(800,y+48,130,42,20,'#f0eaf6');text('MATCH  '+(94-i*7)+'%',865,y+75,14,'#755b91','600','center')});
+   text('FOLLOW THE LAVENDER HEX LED ON YOUR DEVICE',52,590,13,'#8a6cab','600');
+  }else if(page==='records'||page==='favorites'){
+   text(page==='records'?'ALL RECORDS':'FAVORITES',52,132,28,'#453953','600');let list=page==='records'?records:records.filter(r=>r.favorite);
+   if(!list.length){text(page==='records'?'No tasting records yet':'No favorites yet',512,330,22,'#988da1','500','center');text('Scan a wine label and save your tasting.',512,365,14,'#a59aaa','400','center')}
+   list.slice().reverse().forEach((r,i)=>{let y=185+i*125;round(52,y,920,100,16,'#fff','#e9e2ef');bottle(82,y+17,.42);text(r.name,160,y+42,18,'#493e56','600');text(`${r.type} · ${r.abv}`,160,y+68,13,'#82788e');text(r.favorite?'♥':'♡',920,y+58,24,'#9a7ab7','600','center')});
+  }else if(page==='qr'){
+   text('YOUR TASTING PASSPORT',52,132,27,'#453953','600');text('Scan to transfer your saved records to your phone',52,165,15,'#8c8296');round(365,195,294,330,22,'#fff','#e8e0ed');drawPseudoQR(512,350,210);text('TASTING MEMORY · 2030',512,565,13,'#6c5a80','600','center');text('QR CODE READY',512,600,12,'#9a7ab7','600','center');
+  }
+ }
+ function drawPseudoQR(cx,cy,size){let n=29,cell=size/n;let seed=17;function rand(){seed=(seed*9301+49297)%233280;return seed/233280}ctx.fillStyle='#fff';ctx.fillRect(cx-size/2,cy-size/2,size,size);for(let y=0;y<n;y++)for(let x=0;x<n;x++){let finder=(x<7&&y<7)||(x>=n-7&&y<7)||(x<7&&y>=n-7);if(finder){let xx=x<7?x:x>=n-7?x-(n-7):x,yy=y<7?y:y>=n-7?y-(n-7):y;let edge=xx===0||xx===6||yy===0||yy===6,center=xx>=2&&xx<=4&&yy>=2&&yy<=4;if(edge||center){ctx.fillStyle='#292431';ctx.fillRect(cx-size/2+x*cell,cy-size/2+y*cell,cell,cell)}}else if(rand()>.52){ctx.fillStyle='#292431';ctx.fillRect(cx-size/2+x*cell,cy-size/2+y*cell,cell,cell)}}}
+ async function applyTexture(){if(!viewer.model)return;try{const m=viewer.model.materials.find(x=>x.name==='Black Glass Screen');if(!m?.pbrMetallicRoughness?.baseColorTexture)return;const tex=await viewer.createTexture(c.toDataURL('image/png'));m.pbrMetallicRoughness.baseColorTexture.setTexture(tex)}catch(e){console.warn('Display update',e)}}
+ function render(){drawScreen();applyTexture()}
+ function setPage(p){if(p==='camera'){scanned=false;saved=false;favorite=false}page=p;render();updatePanel()}
+ function updatePanel(){
+  const tabs=['HOME','CAMERA','RECORDS','FAVORITES','QR CODE'];
+  host.innerHTML=`<div class="tm-app">
+   <div class="tm-app-head"><div><div class="tm-app-kicker">04 / INTERACTIVE DEVICE UI</div><h3>${names[page==='home'?0:page==='camera'?1:page==='records'?2:page==='favorites'?3:page==='qr'?4:page==='record'?5:6]}</h3></div><span class="tm-app-status">● LIVE DISPLAY</span></div>
+   <p class="tm-app-copy">${descriptions[page==='home'?0:page==='camera'?1:page==='records'?2:page==='favorites'?3:page==='qr'?4:page==='record'?5:6]}</p>
+   <div class="tm-nav">${tabs.map((t,i)=>`<button data-page="${['home','camera','records','favorites','qr'][i]}" class="${(['home','camera','records','favorites','qr'][i]===page)?'active':''}">${t}</button>`).join('')}</div>
+   <div id="tm-dynamic"></div>
+  </div>`;
+  const dyn=host.querySelector('#tm-dynamic');
+  if(page==='home'){dyn.innerHTML=`<div class="tm-panel"><div class="tm-row"><span class="tm-label">HOME MENU</span><span class="tm-label">SELECT TO EXPLORE</span></div><div class="tm-nav" style="grid-template-columns:1fr 1fr;margin-top:12px">${[['◎','CAMERA','camera'],['▤','RECORDS','records'],['♡','FAVORITES','favorites'],['▦','QR CODE','qr']].map(x=>`<button data-page="${x[2]}">${x[0]} &nbsp; ${x[1]}</button>`).join('')}</div></div><p class="tm-hint">화면 메뉴를 누르거나 3D 모델 화면을 가까이 확대해 UI를 확인하세요.</p>`}
+  if(page==='camera'){dyn.innerHTML=`<div class="tm-camera-view"><div class="tm-bottle"></div><div class="tm-scan-corners"></div><div class="tm-scan-caption">CAMERA · LABEL DETECTION</div></div><div class="tm-info-grid"><div class="tm-info"><small>DETECTED WINE</small><b>Château Margaux 2020</b></div><div class="tm-info"><small>ALCOHOL</small><b>13.5% ABV</b></div><div class="tm-info"><small>REGION</small><b>Bordeaux, France</b></div><div class="tm-info"><small>GRAPE</small><b>Cabernet blend</b></div></div><button class="tm-action" id="tmScan" style="width:100%;margin-top:12px">${scanned?'✓ LABEL ANALYZED':'SCAN WINE LABEL'}</button><p class="tm-hint">촬영 시뮬레이션을 실행하면 라벨 정보가 분석되어 테이스팅 기록 화면으로 이동합니다.</p>`}
+  if(page==='record'){dyn.innerHTML=`<div class="tm-panel"><div class="tm-row"><span class="tm-label">WINE INFORMATION</span><span class="tm-value">${current.abv} ABV</span></div><h3 style="font-size:18px;margin:8px 0">${current.name}</h3><p class="tm-app-copy">${current.type} · ${current.grape}</p></div><div class="tm-panel"><div class="tm-row"><span class="tm-label">TASTING PROFILE · HEXAGON GRAPH</span><span class="tm-label">0—5</span></div><div class="tm-hex-wrap"><canvas id="tmHex" width="220" height="220"></canvas><div class="tm-hex-legend">SWEETNESS<br>ACIDITY<br>TANNIN<br>BODY<br>AROMA<br>FINISH<br><b>값을 조절하면 그래프가 실시간으로 바뀝니다.</b></div></div><div class="tm-taste-list">${Object.keys(values).map(k=>`<label class="tm-taste-row"><span>${k}</span><input type="range" min="0" max="5" step="1" value="${values[k]}" data-taste="${k}"><b>${values[k]}</b></label>`).join('')}</div></div><div class="tm-row"><button class="tm-action secondary" id="tmFavorite">${favorite?'♥ FAVORITED':'♡ ADD FAVORITE'}</button><span class="tm-hint">저장하려면 3D 제품의 Button 파트를 누르세요.</span></div><button class="tm-action" id="tmPress" style="width:100%">PRESS MODEL BUTTON · SAVE</button>`}
+  if(page==='nearby'){dyn.innerHTML=`<div class="tm-panel"><span class="tm-label">AI TASTE MATCHING</span><h3 style="font-size:19px">Similar spirits nearby</h3><p class="tm-app-copy">저장한 ${current.name}의 바디감과 타닌 특성을 기준으로 추천합니다.</p></div><div class="tm-list">${wines.slice(1).map((w,i)=>`<div class="tm-list-item"><div class="tm-mini-bottle"></div><div><b>${w.name}</b><small>${w.booth} · MATCH ${94-i*7}%</small></div></div>`).join('')}</div><p class="tm-hint">제품의 육각 LED가 추천 부스 방향을 표시합니다.</p>`}
+  if(page==='records'||page==='favorites'){let list=page==='records'?records:records.filter(r=>r.favorite);dyn.innerHTML=`<div class="tm-list">${list.length?list.slice().reverse().map(r=>`<div class="tm-list-item"><div class="tm-mini-bottle"></div><div><b>${r.name}</b><small>${r.type} · ${r.abv} ${r.favorite?'· ♥':''}</small></div></div>`).join(''):`<div class="tm-panel"><p class="tm-app-copy">${page==='records'?'아직 저장된 기록이 없습니다. CAMERA에서 와인을 스캔해 보세요.':'아직 즐겨찾기한 주류가 없습니다. 테이스팅 기록에서 하트를 눌러 추가하세요.'}</p></div>`}</div>`}
+  if(page==='qr'){dyn.innerHTML=`<div class="tm-panel"><span class="tm-label">EXPORT YOUR TASTING PASSPORT</span><div class="tm-qr"><canvas id="tmQrCanvas" width="240" height="240"></canvas></div><p class="tm-app-copy" style="text-align:center;margin-top:10px">QR CODE READY · ${records.length} RECORD(S)</p></div><button class="tm-action" id="tmRefreshQr" style="width:100%">GENERATE QR CODE</button><p class="tm-hint">기록을 휴대폰으로 옮길 수 있도록 개인 테이스팅 패스포트 QR을 표시합니다.</p>`;drawQrPanel()}
+  host.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>setPage(b.dataset.page)));
+  host.querySelector('#tmScan')?.addEventListener('click',()=>{scanned=true;setPage('record')});
+  host.querySelectorAll('[data-taste]').forEach(el=>el.addEventListener('input',()=>{values[el.dataset.taste]=Number(el.value);el.nextElementSibling.textContent=el.value;render();const keep=page;updatePanel();page=keep}));
+  host.querySelector('#tmFavorite')?.addEventListener('click',()=>{favorite=!favorite;updatePanel()});
+  host.querySelector('#tmPress')?.addEventListener('click',saveRecord);
+  host.querySelector('#tmRefreshQr')?.addEventListener('click',drawQrPanel);
+  drawHexPanel();
+ }
+ function drawHexPanel(){const cv=host.querySelector('#tmHex');if(!cv)return;const x=cv.getContext('2d');x.clearRect(0,0,220,220);let keys=Object.keys(values),cx=110,cy=110,r=82;for(let n=1;n<=5;n++){x.beginPath();for(let i=0;i<6;i++){let a=i*Math.PI*2/6-Math.PI/2,xx=cx+Math.cos(a)*r*n/5,yy=cy+Math.sin(a)*r*n/5;i?x.lineTo(xx,yy):x.moveTo(xx,yy)}x.closePath();x.strokeStyle='#ded5e8';x.stroke()}x.beginPath();keys.forEach((k,i)=>{let a=i*Math.PI*2/6-Math.PI/2,v=values[k]/5*r,xx=cx+Math.cos(a)*v,yy=cy+Math.sin(a)*v;i?x.lineTo(xx,yy):x.moveTo(xx,yy)});x.closePath();x.fillStyle='#b79bd766';x.fill();x.strokeStyle='#8d70ad';x.lineWidth=2.5;x.stroke()}
+ function drawQrPanel(){const cv=host.querySelector('#tmQrCanvas');if(!cv)return;const x=cv.getContext('2d'),n=29,cell=240/n;x.fillStyle='#fff';x.fillRect(0,0,240,240);let seed=records.length+47;function rand(){seed=(seed*9301+49297)%233280;return seed/233280}for(let y=0;y<n;y++)for(let xx=0;xx<n;xx++){let f=(xx<7&&y<7)||(xx>n-8&&y<7)||(xx<7&&y>n-8);if(f){let a=xx<7?xx:xx>n-8?xx-(n-7):xx,b=y<7?y:y>n-8?y-(n-7):y;if(a===0||a===6||b===0||b===6||(a>=2&&a<=4&&b>=2&&b<=4)){x.fillStyle='#28232f';x.fillRect(xx*cell,y*cell,cell,cell)}}else if(rand()>.5){x.fillStyle='#28232f';x.fillRect(xx*cell,y*cell,cell,cell)}}}
+ function saveRecord(){if(saved)return;saved=true;records.push({name:current.name,type:current.type,abv:current.abv,favorite});render();setPage('nearby');try{const node=viewer.model?.getNodeByName('Button');if(node)node.position=node.position}catch(e){}}
+ // Load a QR encoder so the QR view is a real, scannable code when online.
+ let qrBitmap=null;
+ function buildRealQr(){
+  if(!window.QRCode)return;
+  const payload=JSON.stringify({app:'Tasting Memory',year:2030,records:records.map(r=>({name:r.name,type:r.type,abv:r.abv}))});
+  const tmp=document.createElement('div');
+  try{new QRCode(tmp,{text:payload,width:240,height:240,colorDark:'#28232f',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M});
+   setTimeout(()=>{const source=tmp.querySelector('canvas')||tmp.querySelector('img');if(!source)return;const img=new Image();img.onload=()=>{qrBitmap=img;if(page==='qr'){drawScreen();applyTexture();drawQrPanel();}};img.src=source.tagName==='CANVAS'?source.toDataURL('image/png'):source.src;},180);
+  }catch(e){console.warn('QR generation fallback',e)}
+ }
+ const qrScript=document.createElement('script');qrScript.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';qrScript.onload=buildRealQr;document.head.appendChild(qrScript);
+ const oldQrDraw=drawQrPanel;
+ drawQrPanel=function(){oldQrDraw();const cv=host.querySelector('#tmQrCanvas');if(cv&&qrBitmap){const x=cv.getContext('2d');x.clearRect(0,0,240,240);x.drawImage(qrBitmap,0,0,240,240)}};
+ const oldDrawScreen=drawScreen;
+ drawScreen=function(){oldDrawScreen();if(page==='qr'&&qrBitmap){ctx.fillStyle='#fff';ctx.fillRect(407,245,210,210);ctx.drawImage(qrBitmap,407,245,210,210)}};
+ // Add an actual model-anchored hotspot to the named Button part when the model is ready.
+ const buttonHotspot=document.createElement('button');buttonHotspot.slot='hotspot-button-trigger';buttonHotspot.className='tm-button-hotspot';buttonHotspot.textContent='●';buttonHotspot.title='Press the model Button to save';buttonHotspot.addEventListener('click',e=>{e.stopPropagation();if(page==='record')saveRecord();else if(page==='camera'&&scanned)setPage('record')});
+ viewer.appendChild(buttonHotspot);
+ function placeButtonHotspot(){try{const node=viewer.model?.getNodeByName('Button');if(node?.position){const p=node.position;buttonHotspot.dataset.position=`${p[0]} ${p[1]} ${p[2]}`;buttonHotspot.dataset.normal='0 0 1';buttonHotspot.style.display='';}}catch(e){}}
+ viewer.addEventListener('load',()=>{placeButtonHotspot();render()});
+ const originalPage=page;updatePanel();drawScreen();viewer.addEventListener('load',render);
+ setPage('home');
+};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
+<script id="tasting-memory-click-ux-fix">
+(()=>{
+  const viewer=document.getElementById('uiRealModel');
+  const touch=viewer?.querySelector('.ui-device-touch');
+  const touchButtons=[...(touch?.querySelectorAll('[data-touch-screen]')||[])];
+  const pageForIndex={0:'home',1:'camera',2:'record',4:'records'};
+  function activateTouch(index){
+    const page=pageForIndex[index];
+    if(!page)return;
+    touchButtons.forEach(b=>b.classList.toggle('active',Number(b.dataset.touchScreen)===index));
+    const target=document.querySelector(`#ui-design .ui-real-controls [data-page="${page}"]`);
+    if(target){target.click();return;}
+    if(page==='record'){
+      const scan=document.querySelector('#ui-design #tmScan');
+      if(scan){scan.click();return;}
+      const record=document.querySelector('#ui-design [data-page="records"]');
+      record?.click();return;
+    }
+    if(page==='records'){
+      const records=document.querySelector('#ui-design [data-page="records"]');
+      records?.click();return;
+    }
+    document.querySelector(`#ui-design [data-page="${page}"]`)?.click();
+  }
+  touchButtons.forEach(b=>{
+    b.type='button';
+    b.addEventListener('click',e=>{
+      e.preventDefault();e.stopPropagation();
+      activateTouch(Number(b.dataset.touchScreen));
+    });
+  });
+  // Ensure hotspot hit targets remain interactive after model-viewer loads/reflows.
+  function refreshTouch(){
+    if(!touch)return;
+    touch.style.pointerEvents='auto';
+    touch.querySelectorAll('button').forEach(b=>{b.style.pointerEvents='auto';b.style.cursor='pointer'});
+  }
+  viewer?.addEventListener('load',refreshTouch);
+  refreshTouch();
+  // The right-hand interaction panel is intentionally scrollable; do not let wheel
+  // gestures intended for controls be consumed by the 3D model's camera.
+  const panel=document.querySelector('#ui-design .ui-real-controls');
+  panel?.addEventListener('wheel',e=>e.stopPropagation(),{passive:true});
+})();
+</script>
+
+
+</body>
+</html>
